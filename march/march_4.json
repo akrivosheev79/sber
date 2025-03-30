@@ -1,0 +1,2175 @@
+{
+    "success": true,
+    "body": {
+        "operations": [
+            {
+                "uohId": "a6a03f5b-7c48-4902-960f-6f9792cf10a5",
+                "date": "16.03.2025T14:45:59",
+                "creationChannel": 8,
+                "form": "ExtCardPayment",
+                "state": {
+                    "name": "FINANCIAL",
+                    "category": "executed"
+                },
+                "description": "Оплата товаров и услуг",
+                "fromResource": {
+                    "id": "ct-account:3100070989701600",
+                    "displayedValue": "Платёжный счёт •• 1132"
+                },
+                "correspondent": "MARKET DZHONNI MOSCOW RUS",
+                "operationAmount": {
+                    "amount": -548.00,
+                    "currencyCode": "RUB"
+                },
+                "nationalAmount": {
+                    "amount": -548.00,
+                    "currencyCode": "RUB"
+                },
+                "attributes": {
+                    "copyable": false,
+                    "nfc": false,
+                    "cashReceipt": false,
+                    "compositePayment": false
+                },
+                "classificationCode": 5411,
+                "type": "payment",
+                "billingAmount": {
+                    "id": "3100070989701600",
+                    "name": "Платёжный счёт",
+                    "amount": 13441.69,
+                    "currencyCode": "RUB"
+                },
+                "authorizationDocId": "fGzny4lIkh4AAAGVnsZo8OFn0iggGGtS",
+                "externalId": "fGzny4lIkh4AAAGVnsZo8OFn0iggGGtS",
+                "isFinancial": true
+            },
+            {
+                "uohId": "74033ce9-d9a2-4549-9f11-bf959c2378d3",
+                "ufsId": "0001_1000000001089481313",
+                "date": "16.03.2025T14:19:05",
+                "creationChannel": 3,
+                "form": "UfsJuridicalPaymentLink",
+                "state": {
+                    "name": "EXECUTED",
+                    "category": "executed"
+                },
+                "description": "Оплата услуг",
+                "fromResource": {
+                    "id": "ct-account:3100070989701650",
+                    "displayedValue": "Платёжный счёт •• 5435"
+                },
+                "toResource": {
+                    "displayedValue": "•• 7202"
+                },
+                "correspondent": "МегаФон",
+                "operationAmount": {
+                    "amount": -1000.00,
+                    "currencyCode": "RUB"
+                },
+                "nationalAmount": {
+                    "amount": -1000.00,
+                    "currencyCode": "RUB"
+                },
+                "commission": {
+                    "amount": 0.00,
+                    "currencyCode": "RUB"
+                },
+                "attributes": {
+                    "copyable": true,
+                    "nfc": false,
+                    "cashReceipt": false,
+                    "compositePayment": false
+                },
+                "classificationCode": 3000000013,
+                "serviceCode": "1375009370649",
+                "type": "ufsPayment",
+                "billingAmount": {
+                    "id": "3100070989701650",
+                    "name": "Платёжный счёт",
+                    "amount": 36981.88,
+                    "currencyCode": "RUB"
+                },
+                "externalId": "0001_1000000001089481313",
+                "isFinancial": true
+            },
+            {
+                "uohId": "c888f613-8133-4f7d-a46c-ec58a45a40fc",
+                "ufsId": "0001_1000000001088936685",
+                "date": "16.03.2025T13:30:31",
+                "creationChannel": 3,
+                "form": "UfsOutTransfer",
+                "state": {
+                    "name": "EXECUTED",
+                    "category": "executed"
+                },
+                "description": "Клиенту Сбера",
+                "fromResource": {
+                    "id": "ct-account:3100070989701600",
+                    "displayedValue": "Платёжный счёт •• 1132"
+                },
+                "toResource": {
+                    "displayedValue": "•• 5005"
+                },
+                "correspondent": "Саъди Махмадулоевич У.",
+                "operationAmount": {
+                    "amount": -1500.00,
+                    "currencyCode": "RUB"
+                },
+                "nationalAmount": {
+                    "amount": -1500.00,
+                    "currencyCode": "RUB"
+                },
+                "commission": {
+                    "amount": 0.00,
+                    "currencyCode": "RUR"
+                },
+                "attributes": {
+                    "copyable": true,
+                    "nfc": false,
+                    "cashReceipt": false,
+                    "compositePayment": false
+                },
+                "type": "ufsPayment",
+                "billingAmount": {
+                    "id": "3100070989701600",
+                    "name": "Платёжный счёт",
+                    "amount": 13989.69,
+                    "currencyCode": "RUB"
+                },
+                "externalId": "0001_1000000001088936685",
+                "isFinancial": true
+            },
+            {
+                "uohId": "2ca5224c-64fd-41e4-8067-12287faeb0a2",
+                "date": "16.03.2025T13:06:01",
+                "creationChannel": 8,
+                "form": "UfsExtMMPLSBPOutNAcptTransfer",
+                "state": {
+                    "name": "FINANCIAL",
+                    "category": "executed"
+                },
+                "description": "Перевод по запросу СБП",
+                "fromResource": {
+                    "id": "ct-account:3100070989701600",
+                    "displayedValue": "Платёжный счёт •• 1132"
+                },
+                "correspondent": "Ozon банк",
+                "operationAmount": {
+                    "amount": -1000.00,
+                    "currencyCode": "RUB"
+                },
+                "nationalAmount": {
+                    "amount": -1000.00,
+                    "currencyCode": "RUB"
+                },
+                "attributes": {
+                    "copyable": false,
+                    "nfc": false,
+                    "cashReceipt": false,
+                    "compositePayment": false
+                },
+                "imageUrl": "https://cms-res.online.sberbank.ru/MERCHANT/b3ab7e74-94a6-4026-90e7-6c7a5439d474.png",
+                "classificationCode": 99992349,
+                "type": "payment",
+                "billingAmount": {
+                    "id": "3100070989701600",
+                    "name": "Платёжный счёт",
+                    "amount": 15489.69,
+                    "currencyCode": "RUB"
+                },
+                "authorizationDocId": "fGzny4lIkh4AAAGVnmrfYjGfks2+tpmQ",
+                "externalId": "fGzny4lIkh4AAAGVnmrfYjGfks2+tpmQ",
+                "isFinancial": true
+            },
+            {
+                "uohId": "c506a907-525e-47c5-9420-bd09fa86f100",
+                "date": "15.03.2025T19:50:02",
+                "creationChannel": 8,
+                "form": "ExtCardPayment",
+                "state": {
+                    "name": "FINANCIAL",
+                    "category": "executed"
+                },
+                "description": "Оплата товаров и услуг",
+                "fromResource": {
+                    "id": "ct-account:3100070989701600",
+                    "displayedValue": "Платёжный счёт •• 1132"
+                },
+                "correspondent": "КуулКлевер",
+                "operationAmount": {
+                    "amount": -4122.85,
+                    "currencyCode": "RUB"
+                },
+                "nationalAmount": {
+                    "amount": -4122.85,
+                    "currencyCode": "RUB"
+                },
+                "attributes": {
+                    "copyable": false,
+                    "nfc": false,
+                    "cashReceipt": false,
+                    "compositePayment": false
+                },
+                "imageUrl": "https://cms-res.online.sberbank.ru/MERCHANT/646e034d-b99f-4e19-8273-0712edc48786.png",
+                "classificationCode": 5411,
+                "type": "payment",
+                "billingAmount": {
+                    "id": "3100070989701600",
+                    "name": "Платёжный счёт",
+                    "amount": 16489.69,
+                    "currencyCode": "RUB"
+                },
+                "authorizationDocId": "fGzny4lIkh4AAAGVmrZukI5J1hjpJbf3",
+                "externalId": "fGzny4lIkh4AAAGVmrZukI5J1hjpJbf3",
+                "isFinancial": true
+            },
+            {
+                "uohId": "9b8de2d9-4a33-48ef-90af-d8d1fef5a598",
+                "date": "15.03.2025T19:40:36",
+                "creationChannel": 8,
+                "form": "ExtCardOtherOut",
+                "state": {
+                    "name": "FINANCIAL",
+                    "category": "executed"
+                },
+                "description": "Прочие списания",
+                "fromResource": {
+                    "id": "ct-account:3100070989701600",
+                    "displayedValue": "Платёжный счёт •• 1132"
+                },
+                "correspondent": "Помощь рядом",
+                "operationAmount": {
+                    "amount": -9.00,
+                    "currencyCode": "RUB"
+                },
+                "nationalAmount": {
+                    "amount": -9.00,
+                    "currencyCode": "RUB"
+                },
+                "attributes": {
+                    "copyable": false,
+                    "nfc": false,
+                    "cashReceipt": false,
+                    "compositePayment": false
+                },
+                "imageUrl": "https://cms-res.online.sberbank.ru/MERCHANT/2814e8da-0aa1-428b-838b-eb0e1fda4257.png",
+                "classificationCode": 8398,
+                "type": "payment",
+                "billingAmount": {
+                    "id": "3100070989701600",
+                    "name": "Платёжный счёт",
+                    "amount": 20612.54,
+                    "currencyCode": "RUB"
+                },
+                "authorizationDocId": "fGzny4lIkh4AAAGVmq3LoNxVq2f7K2OR",
+                "externalId": "fGzny4lIkh4AAAGVm2DLHmhLBhrz5Xvg",
+                "isFinancial": true
+            },
+            {
+                "uohId": "42685598-411b-4032-9793-6fa16275a5bf",
+                "date": "15.03.2025T19:40:06",
+                "creationChannel": 8,
+                "form": "ExtCardPayment",
+                "state": {
+                    "name": "FINANCIAL",
+                    "category": "executed"
+                },
+                "description": "Оплата товаров и услуг",
+                "fromResource": {
+                    "id": "ct-account:3100070989701600",
+                    "displayedValue": "Платёжный счёт •• 1132"
+                },
+                "correspondent": "Яндекс Go",
+                "operationAmount": {
+                    "amount": -881.00,
+                    "currencyCode": "RUB"
+                },
+                "nationalAmount": {
+                    "amount": -881.00,
+                    "currencyCode": "RUB"
+                },
+                "attributes": {
+                    "copyable": false,
+                    "nfc": false,
+                    "cashReceipt": false,
+                    "compositePayment": false
+                },
+                "imageUrl": "https://cms-res.online.sberbank.ru/MERCHANT/b6e2021d-b3a1-4dd6-aa80-365d47eab570.jpg",
+                "classificationCode": 4121,
+                "type": "payment",
+                "billingAmount": {
+                    "id": "3100070989701600",
+                    "name": "Платёжный счёт",
+                    "amount": 20621.54,
+                    "currencyCode": "RUB"
+                },
+                "authorizationDocId": "fGzny4lIkh4AAAGVmq1WcCsgSshTsWbR",
+                "externalId": "fGzny4lIkh4AAAGVm5j7X1V6RP6KB35Y",
+                "isFinancial": true
+            },
+            {
+                "uohId": "13943956-a575-4149-a6f8-c86f551b5907",
+                "ufsId": "000S_1000000000174025810",
+                "date": "15.03.2025T19:14:51",
+                "creationChannel": 3,
+                "form": "UfsQRSBP",
+                "state": {
+                    "name": "EXECUTED",
+                    "category": "executed"
+                },
+                "description": "Оплата по QR-коду СБП",
+                "fromResource": {
+                    "id": "ct-account:3100070989701650",
+                    "displayedValue": "Платёжный счёт •• 5435"
+                },
+                "correspondent": "NETMONET RUS",
+                "operationAmount": {
+                    "amount": -380.00,
+                    "currencyCode": "RUB"
+                },
+                "nationalAmount": {
+                    "amount": -380.00,
+                    "currencyCode": "RUB"
+                },
+                "commission": {
+                    "amount": 0.00,
+                    "currencyCode": "RUB"
+                },
+                "attributes": {
+                    "copyable": false,
+                    "nfc": false,
+                    "cashReceipt": false,
+                    "compositePayment": false
+                },
+                "classificationCode": 7299,
+                "type": "ufsPayment",
+                "billingAmount": {
+                    "id": "3100070989701650",
+                    "name": "Платёжный счёт",
+                    "amount": 37981.88,
+                    "currencyCode": "RUB"
+                },
+                "externalId": "000S_1000000000174025810",
+                "isFinancial": true
+            },
+            {
+                "uohId": "81a9e2eb-a064-43dc-9a7a-b4f15121794a",
+                "date": "15.03.2025T19:14:16",
+                "creationChannel": 8,
+                "form": "ExtCardPayment",
+                "state": {
+                    "name": "FINANCIAL",
+                    "category": "executed"
+                },
+                "description": "Оплата товаров и услуг",
+                "fromResource": {
+                    "id": "ct-account:3100070989701650",
+                    "displayedValue": "Платёжный счёт •• 5435"
+                },
+                "correspondent": "WILLIAM BASS_P_QR MOSCOW RUS",
+                "operationAmount": {
+                    "amount": -3310.00,
+                    "currencyCode": "RUB"
+                },
+                "nationalAmount": {
+                    "amount": -3310.00,
+                    "currencyCode": "RUB"
+                },
+                "attributes": {
+                    "copyable": false,
+                    "nfc": false,
+                    "cashReceipt": false,
+                    "compositePayment": false
+                },
+                "classificationCode": 5812,
+                "type": "payment",
+                "billingAmount": {
+                    "id": "3100070989701650",
+                    "name": "Платёжный счёт",
+                    "amount": 38361.88,
+                    "currencyCode": "RUB"
+                },
+                "authorizationDocId": "fGzny4lIkh4AAAGVmpWr2KJKFm9o4H0U",
+                "externalId": "fGzny4lIkh4AAAGVmpWr2KJKFm9o4H0U",
+                "isFinancial": true
+            },
+            {
+                "uohId": "a39c4416-4c4c-44cc-8ada-b90444e16b2d",
+                "date": "15.03.2025T16:58:26",
+                "creationChannel": 8,
+                "form": "ExtCardPayment",
+                "state": {
+                    "name": "FINANCIAL",
+                    "category": "executed"
+                },
+                "description": "Оплата товаров и услуг",
+                "fromResource": {
+                    "id": "ct-account:3100070989701600",
+                    "displayedValue": "Платёжный счёт •• 1132"
+                },
+                "correspondent": "BILETNAYA KASSA KD1 MOSCOW RUS",
+                "operationAmount": {
+                    "amount": -950.00,
+                    "currencyCode": "RUB"
+                },
+                "nationalAmount": {
+                    "amount": -950.00,
+                    "currencyCode": "RUB"
+                },
+                "attributes": {
+                    "copyable": false,
+                    "nfc": false,
+                    "cashReceipt": false,
+                    "compositePayment": false
+                },
+                "classificationCode": 7991,
+                "type": "payment",
+                "billingAmount": {
+                    "id": "3100070989701600",
+                    "name": "Платёжный счёт",
+                    "amount": 21502.54,
+                    "currencyCode": "RUB"
+                },
+                "authorizationDocId": "fGzny4lIkh4AAAGVmhlT0OPsHeqbml1P",
+                "externalId": "fGzny4lIkh4AAAGVmhlT0OPsHeqbml1P",
+                "isFinancial": true
+            },
+            {
+                "uohId": "0d2ffb1e-8abc-4bfd-84b1-d7749e6fb8cc",
+                "date": "15.03.2025T16:32:24",
+                "creationChannel": 8,
+                "form": "ExtCardPayment",
+                "state": {
+                    "name": "FINANCIAL",
+                    "category": "executed"
+                },
+                "description": "Оплата товаров и услуг",
+                "fromResource": {
+                    "id": "ct-account:3100070989701600",
+                    "displayedValue": "Платёжный счёт •• 1132"
+                },
+                "correspondent": "DB BLEK MOSCOW RUS",
+                "operationAmount": {
+                    "amount": -850.00,
+                    "currencyCode": "RUB"
+                },
+                "nationalAmount": {
+                    "amount": -850.00,
+                    "currencyCode": "RUB"
+                },
+                "attributes": {
+                    "copyable": false,
+                    "nfc": false,
+                    "cashReceipt": false,
+                    "compositePayment": false
+                },
+                "classificationCode": 5814,
+                "type": "payment",
+                "billingAmount": {
+                    "id": "3100070989701600",
+                    "name": "Платёжный счёт",
+                    "amount": 22452.54,
+                    "currencyCode": "RUB"
+                },
+                "authorizationDocId": "fGzny4lIkh4AAAGVmgF6WA2BkILjwWkn",
+                "externalId": "fGzny4lIkh4AAAGVmgF6WA2BkILjwWkn",
+                "isFinancial": true
+            },
+            {
+                "uohId": "6158218b-269b-4d94-a0b1-90a3bed8c565",
+                "date": "15.03.2025T14:51:44",
+                "creationChannel": 8,
+                "form": "ExtCardPayment",
+                "state": {
+                    "name": "FINANCIAL",
+                    "category": "executed"
+                },
+                "description": "Оплата товаров и услуг",
+                "fromResource": {
+                    "id": "ct-account:3100070989701600",
+                    "displayedValue": "Платёжный счёт •• 1132"
+                },
+                "correspondent": "MANGAL-CITY MOSKVA RUS",
+                "operationAmount": {
+                    "amount": -1100.00,
+                    "currencyCode": "RUB"
+                },
+                "nationalAmount": {
+                    "amount": -1100.00,
+                    "currencyCode": "RUB"
+                },
+                "attributes": {
+                    "copyable": false,
+                    "nfc": false,
+                    "cashReceipt": false,
+                    "compositePayment": false
+                },
+                "classificationCode": 5812,
+                "type": "payment",
+                "billingAmount": {
+                    "id": "3100070989701600",
+                    "name": "Платёжный счёт",
+                    "amount": 23302.54,
+                    "currencyCode": "RUB"
+                },
+                "authorizationDocId": "fGzny4lIkh4AAAGVmaVQmFJaB0mhStwm",
+                "externalId": "fGzny4lIkh4AAAGVngSevy+v3XY+WmtX",
+                "isFinancial": true,
+                "isHidden": false
+            },
+            {
+                "uohId": "85a35833-ec2b-4571-a7fa-53eb4fbd02f7",
+                "date": "15.03.2025T13:05:27",
+                "creationChannel": 8,
+                "form": "ExtCardPayment",
+                "state": {
+                    "name": "FINANCIAL",
+                    "category": "executed"
+                },
+                "description": "Оплата товаров и услуг",
+                "fromResource": {
+                    "id": "ct-account:3100070989701600",
+                    "displayedValue": "Платёжный счёт •• 1132"
+                },
+                "correspondent": "СоюзЦветТорг",
+                "operationAmount": {
+                    "amount": -3469.00,
+                    "currencyCode": "RUB"
+                },
+                "nationalAmount": {
+                    "amount": -3469.00,
+                    "currencyCode": "RUB"
+                },
+                "attributes": {
+                    "copyable": false,
+                    "nfc": false,
+                    "cashReceipt": false,
+                    "compositePayment": false
+                },
+                "imageUrl": "https://cms-res.online.sberbank.ru/MERCHANT/0463707a-b4dc-4930-8b57-d929c2132fa1.jpg",
+                "classificationCode": 5992,
+                "type": "payment",
+                "billingAmount": {
+                    "id": "3100070989701600",
+                    "name": "Платёжный счёт",
+                    "amount": 24402.54,
+                    "currencyCode": "RUB"
+                },
+                "authorizationDocId": "fGzny4lIkh4AAAGVmUQGWPIUwIXFcEDd",
+                "externalId": "fGzny4lIkh4AAAGVmUQGWPIUwIXFcEDd",
+                "isFinancial": true
+            },
+            {
+                "uohId": "7d1cb177-1643-47cc-b013-1cf5298d285c",
+                "date": "15.03.2025T13:02:11",
+                "creationChannel": 8,
+                "form": "ExtCardOtherOut",
+                "state": {
+                    "name": "FINANCIAL",
+                    "category": "executed"
+                },
+                "description": "Прочие списания",
+                "fromResource": {
+                    "id": "ct-account:3100070989701600",
+                    "displayedValue": "Платёжный счёт •• 1132"
+                },
+                "correspondent": "STROYMARKET MOSKVA RUS",
+                "operationAmount": {
+                    "amount": -2500.00,
+                    "currencyCode": "RUB"
+                },
+                "nationalAmount": {
+                    "amount": -2500.00,
+                    "currencyCode": "RUB"
+                },
+                "attributes": {
+                    "copyable": false,
+                    "nfc": false,
+                    "cashReceipt": false,
+                    "compositePayment": false
+                },
+                "classificationCode": 5251,
+                "type": "payment",
+                "billingAmount": {
+                    "id": "3100070989701600",
+                    "name": "Платёжный счёт",
+                    "amount": 27871.54,
+                    "currencyCode": "RUB"
+                },
+                "authorizationDocId": "fGzny4lIkh4AAAGVmUEIuOPT56PKL5h/",
+                "externalId": "fGzny4lIkh4AAAGVngSev0qimP6O916u",
+                "isFinancial": true,
+                "isHidden": false
+            },
+            {
+                "uohId": "3226a7bb-e73e-4b8a-8c27-cc904d5a1646",
+                "date": "15.03.2025T12:27:01",
+                "creationChannel": 8,
+                "form": "ExtCardPayment",
+                "state": {
+                    "name": "FINANCIAL",
+                    "category": "executed"
+                },
+                "description": "Оплата товаров и услуг",
+                "fromResource": {
+                    "id": "ct-account:3100070989701600",
+                    "displayedValue": "Платёжный счёт •• 1132"
+                },
+                "correspondent": "AUTOMATIC CASH DESK N1 MOSKVA RUS",
+                "operationAmount": {
+                    "amount": -800.00,
+                    "currencyCode": "RUB"
+                },
+                "nationalAmount": {
+                    "amount": -800.00,
+                    "currencyCode": "RUB"
+                },
+                "attributes": {
+                    "copyable": false,
+                    "nfc": false,
+                    "cashReceipt": false,
+                    "compositePayment": false
+                },
+                "classificationCode": 4789,
+                "type": "payment",
+                "billingAmount": {
+                    "id": "3100070989701600",
+                    "name": "Платёжный счёт",
+                    "amount": 30371.54,
+                    "currencyCode": "RUB"
+                },
+                "authorizationDocId": "fGzny4lIkh4AAAGVmSDSoMtGWx7R+zOl",
+                "externalId": "fGzny4lIkh4AAAGVngSev7h5AHK6kPpy",
+                "isFinancial": true,
+                "isHidden": false
+            },
+            {
+                "uohId": "ad03b487-4cac-403f-8bfe-763961ac1037",
+                "date": "15.03.2025T11:04:23",
+                "creationChannel": 8,
+                "form": "ExtCardPayment",
+                "state": {
+                    "name": "FINANCIAL",
+                    "category": "executed"
+                },
+                "description": "Оплата товаров и услуг",
+                "fromResource": {
+                    "id": "ct-account:3100070989701600",
+                    "displayedValue": "Платёжный счёт •• 1132"
+                },
+                "correspondent": "KOFEJNYA KRASNOPRES MOSCOW RUS",
+                "operationAmount": {
+                    "amount": -280.00,
+                    "currencyCode": "RUB"
+                },
+                "nationalAmount": {
+                    "amount": -280.00,
+                    "currencyCode": "RUB"
+                },
+                "attributes": {
+                    "copyable": false,
+                    "nfc": false,
+                    "cashReceipt": false,
+                    "compositePayment": false
+                },
+                "classificationCode": 5814,
+                "type": "payment",
+                "billingAmount": {
+                    "id": "3100070989701600",
+                    "name": "Платёжный счёт",
+                    "amount": 31171.54,
+                    "currencyCode": "RUB"
+                },
+                "authorizationDocId": "fGzny4lIkh4AAAGVmNUvWHfs3rd8wuwx",
+                "externalId": "fGzny4lIkh4AAAGVmNUvWHfs3rd8wuwx",
+                "isFinancial": true
+            },
+            {
+                "uohId": "5567a969-2026-4e50-8d8f-9ab444045679",
+                "date": "15.03.2025T10:49:03",
+                "creationChannel": 8,
+                "form": "ExtCardPayment",
+                "state": {
+                    "name": "FINANCIAL",
+                    "category": "executed"
+                },
+                "description": "Оплата товаров и услуг",
+                "fromResource": {
+                    "id": "ct-account:3100070989701600",
+                    "displayedValue": "Платёжный счёт •• 1132"
+                },
+                "correspondent": "MIRATORG 363 MOSCOW RUS",
+                "operationAmount": {
+                    "amount": -39.99,
+                    "currencyCode": "RUB"
+                },
+                "nationalAmount": {
+                    "amount": -39.99,
+                    "currencyCode": "RUB"
+                },
+                "attributes": {
+                    "copyable": false,
+                    "nfc": false,
+                    "cashReceipt": false,
+                    "compositePayment": false
+                },
+                "classificationCode": 5411,
+                "type": "payment",
+                "billingAmount": {
+                    "id": "3100070989701600",
+                    "name": "Платёжный счёт",
+                    "amount": 31451.54,
+                    "currencyCode": "RUB"
+                },
+                "authorizationDocId": "fGzny4lIkh4AAAGVmMchsJXL1wEHenrV",
+                "externalId": "fGzny4lIkh4AAAGVmMchsJXL1wEHenrV",
+                "isFinancial": true
+            },
+            {
+                "uohId": "c27652d0-c402-403e-a6ea-344f9920a3dd",
+                "date": "14.03.2025T20:46:09",
+                "creationChannel": 8,
+                "form": "ExtCardPayment",
+                "state": {
+                    "name": "FINANCIAL",
+                    "category": "executed"
+                },
+                "description": "Оплата товаров и услуг",
+                "fromResource": {
+                    "id": "ct-account:3100070989701600",
+                    "displayedValue": "Платёжный счёт •• 1132"
+                },
+                "correspondent": "KHVALOVSKIE VODY SANKT-PETERB RUS",
+                "operationAmount": {
+                    "amount": -870.00,
+                    "currencyCode": "RUB"
+                },
+                "nationalAmount": {
+                    "amount": -870.00,
+                    "currencyCode": "RUB"
+                },
+                "attributes": {
+                    "copyable": false,
+                    "nfc": false,
+                    "cashReceipt": false,
+                    "compositePayment": false
+                },
+                "classificationCode": 5499,
+                "type": "payment",
+                "billingAmount": {
+                    "id": "3100070989701600",
+                    "name": "Платёжный счёт",
+                    "amount": 31491.53,
+                    "currencyCode": "RUB"
+                },
+                "authorizationDocId": "fGzny4lIkh4AAAGVlcNy6BTkk4/sq+ru",
+                "externalId": "fGzny4lIkh4AAAGVlcNy6BTkk4/sq+ru",
+                "isFinancial": true
+            },
+            {
+                "uohId": "70ffdea3-42d1-4332-9082-e2878c88cfc5",
+                "date": "14.03.2025T15:16:45",
+                "creationChannel": 8,
+                "form": "ExtCardPayment",
+                "state": {
+                    "name": "FINANCIAL",
+                    "category": "executed"
+                },
+                "description": "Оплата товаров и услуг",
+                "fromResource": {
+                    "id": "ct-account:3100070989701650",
+                    "displayedValue": "Платёжный счёт •• 5435"
+                },
+                "correspondent": "VKUSNO_P_QR MOSCOW RUS",
+                "operationAmount": {
+                    "amount": -506.00,
+                    "currencyCode": "RUB"
+                },
+                "nationalAmount": {
+                    "amount": -506.00,
+                    "currencyCode": "RUB"
+                },
+                "attributes": {
+                    "copyable": false,
+                    "nfc": false,
+                    "cashReceipt": false,
+                    "compositePayment": false
+                },
+                "classificationCode": 5814,
+                "type": "payment",
+                "billingAmount": {
+                    "id": "3100070989701650",
+                    "name": "Платёжный счёт",
+                    "amount": 41671.88,
+                    "currencyCode": "RUB"
+                },
+                "authorizationDocId": "fGzny4lIkh4AAAGVlJXfyDc7t7OKA6ej",
+                "externalId": "fGzny4lIkh4AAAGVlJXfyDc7t7OKA6ej",
+                "isFinancial": true
+            },
+            {
+                "uohId": "0b252e24-6240-4b5c-91a1-a3f9a95a2d13",
+                "ufsId": "0001_1000000001067973364",
+                "date": "14.03.2025T12:38:09",
+                "creationChannel": 3,
+                "form": "UfsOutTransfer",
+                "state": {
+                    "name": "EXECUTED",
+                    "category": "executed"
+                },
+                "description": "Клиенту Сбера",
+                "fromResource": {
+                    "id": "ct-account:3100070989701600",
+                    "displayedValue": "Платёжный счёт •• 1132"
+                },
+                "toResource": {
+                    "displayedValue": "•• 6211"
+                },
+                "correspondent": "Анастасия Андреевна К.",
+                "operationAmount": {
+                    "amount": -10000.00,
+                    "currencyCode": "RUB"
+                },
+                "nationalAmount": {
+                    "amount": -10000.00,
+                    "currencyCode": "RUB"
+                },
+                "commission": {
+                    "amount": 0.00,
+                    "currencyCode": "RUR"
+                },
+                "attributes": {
+                    "copyable": true,
+                    "nfc": false,
+                    "cashReceipt": false,
+                    "compositePayment": false
+                },
+                "type": "ufsPayment",
+                "billingAmount": {
+                    "id": "3100070989701600",
+                    "name": "Платёжный счёт",
+                    "amount": 32361.53,
+                    "currencyCode": "RUB"
+                },
+                "externalId": "0001_1000000001067973364",
+                "isFinancial": true
+            },
+            {
+                "uohId": "f137f1e6-e8af-4ac2-9b5c-68987284a371",
+                "ufsId": "0001_1000000001061834153",
+                "date": "13.03.2025T21:22:57",
+                "creationChannel": 3,
+                "form": "UfsQRSBP",
+                "state": {
+                    "name": "EXECUTED",
+                    "category": "executed"
+                },
+                "description": "Оплата по QR-коду СБП",
+                "fromResource": {
+                    "id": "ct-account:3100070989701600",
+                    "displayedValue": "Платёжный счёт •• 1132"
+                },
+                "correspondent": "Яндекс",
+                "operationAmount": {
+                    "amount": -3249.23,
+                    "currencyCode": "RUB"
+                },
+                "nationalAmount": {
+                    "amount": -3249.23,
+                    "currencyCode": "RUB"
+                },
+                "commission": {
+                    "amount": 0.00,
+                    "currencyCode": "RUB"
+                },
+                "attributes": {
+                    "copyable": false,
+                    "nfc": false,
+                    "cashReceipt": false,
+                    "compositePayment": false
+                },
+                "imageUrl": "https://cms-res.online.sberbank.ru/MERCHANT/be51ffa1-1ae0-4913-9eb1-af11b1355e62.jpg",
+                "classificationCode": 5541,
+                "type": "ufsPayment",
+                "billingAmount": {
+                    "id": "3100070989701600",
+                    "name": "Платёжный счёт",
+                    "amount": 42361.53,
+                    "currencyCode": "RUB"
+                },
+                "externalId": "0001_1000000001061834153",
+                "isFinancial": true
+            },
+            {
+                "uohId": "1999b91c-9d5f-4359-981a-ec1b495e6280",
+                "date": "13.03.2025T19:08:53",
+                "creationChannel": 8,
+                "form": "ExtCardPayment",
+                "state": {
+                    "name": "FINANCIAL",
+                    "category": "executed"
+                },
+                "description": "Оплата товаров и услуг",
+                "fromResource": {
+                    "id": "ct-account:3100070989701650",
+                    "displayedValue": "Платёжный счёт •• 5435"
+                },
+                "correspondent": "VKUSNO_P_QR MOSCOW RUS",
+                "operationAmount": {
+                    "amount": -464.80,
+                    "currencyCode": "RUB"
+                },
+                "nationalAmount": {
+                    "amount": -464.80,
+                    "currencyCode": "RUB"
+                },
+                "attributes": {
+                    "copyable": false,
+                    "nfc": false,
+                    "cashReceipt": false,
+                    "compositePayment": false
+                },
+                "classificationCode": 5814,
+                "type": "payment",
+                "billingAmount": {
+                    "id": "3100070989701650",
+                    "name": "Платёжный счёт",
+                    "amount": 42177.88,
+                    "currencyCode": "RUB"
+                },
+                "authorizationDocId": "fGzny4lIkh4AAAGVkEQKCGNm7e25UqqA",
+                "externalId": "fGzny4lIkh4AAAGVkEQKCGNm7e25UqqA",
+                "isFinancial": true
+            },
+            {
+                "uohId": "4ee112bd-c3fc-4ca4-bdfd-c206c0469644",
+                "date": "13.03.2025T14:09:06",
+                "creationChannel": 8,
+                "form": "ExtCardPayment",
+                "state": {
+                    "name": "FINANCIAL",
+                    "category": "executed"
+                },
+                "description": "Оплата товаров и услуг",
+                "fromResource": {
+                    "id": "ct-account:3100070989701650",
+                    "displayedValue": "Платёжный счёт •• 5435"
+                },
+                "correspondent": "VKUSNO_P_QR MOSCOW RUS",
+                "operationAmount": {
+                    "amount": -518.00,
+                    "currencyCode": "RUB"
+                },
+                "nationalAmount": {
+                    "amount": -518.00,
+                    "currencyCode": "RUB"
+                },
+                "attributes": {
+                    "copyable": false,
+                    "nfc": false,
+                    "cashReceipt": false,
+                    "compositePayment": false
+                },
+                "classificationCode": 5814,
+                "type": "payment",
+                "billingAmount": {
+                    "id": "3100070989701650",
+                    "name": "Платёжный счёт",
+                    "amount": 42642.68,
+                    "currencyCode": "RUB"
+                },
+                "authorizationDocId": "fGzny4lIkh4AAAGVjzGQaOSYuX+pybGa",
+                "externalId": "fGzny4lIkh4AAAGVjzGQaOSYuX+pybGa",
+                "isFinancial": true
+            },
+            {
+                "uohId": "917edb8e-5374-4ca5-a634-9cf862abdca6",
+                "date": "13.03.2025T12:19:47",
+                "creationChannel": 8,
+                "form": "ExtCardPayment",
+                "state": {
+                    "name": "FINANCIAL",
+                    "category": "executed"
+                },
+                "description": "Оплата товаров и услуг",
+                "fromResource": {
+                    "id": "ct-account:3100070989701650",
+                    "displayedValue": "Платёжный счёт •• 5435"
+                },
+                "correspondent": "Яндекс.Плюс",
+                "operationAmount": {
+                    "amount": -799.00,
+                    "currencyCode": "RUB"
+                },
+                "nationalAmount": {
+                    "amount": -799.00,
+                    "currencyCode": "RUB"
+                },
+                "attributes": {
+                    "copyable": false,
+                    "nfc": false,
+                    "cashReceipt": false,
+                    "compositePayment": false
+                },
+                "imageUrl": "https://cms-res.online.sberbank.ru/MERCHANT/f9936b3d-45d8-48e8-8969-0f3daefbd947.png",
+                "classificationCode": 3990,
+                "type": "payment",
+                "billingAmount": {
+                    "id": "3100070989701650",
+                    "name": "Платёжный счёт",
+                    "amount": 43160.68,
+                    "currencyCode": "RUB"
+                },
+                "authorizationDocId": "fGzny4lIkh4AAAGVjs1/OLgkN0+FRaSB",
+                "externalId": "fGzny4lIkh4AAAGVj5U9rQI+NTyI6rcn",
+                "isFinancial": true,
+                "isHidden": false
+            },
+            {
+                "uohId": "98b3d605-f854-47f9-930e-dce4dcac4e87",
+                "date": "13.03.2025T11:14:18",
+                "creationChannel": 8,
+                "form": "P2PSBPInTransfer",
+                "state": {
+                    "name": "FINANCIAL",
+                    "category": "executed"
+                },
+                "description": "Перевод по СБП",
+                "toResource": {
+                    "id": "ct-account:3100070989701600",
+                    "displayedValue": "Платёжный счёт •• 1132"
+                },
+                "correspondent": "Озон Банк (Ozon) RUS",
+                "operationAmount": {
+                    "amount": 8100.00,
+                    "currencyCode": "RUR"
+                },
+                "nationalAmount": {
+                    "amount": 8100.00,
+                    "currencyCode": "RUB"
+                },
+                "attributes": {
+                    "copyable": false,
+                    "nfc": false,
+                    "cashReceipt": false,
+                    "compositePayment": false
+                },
+                "imageUrl": "https://cms-res.online.sberbank.ru/MERCHANT/b3ab7e74-94a6-4026-90e7-6c7a5439d474.png",
+                "classificationCode": 99997668,
+                "type": "payment",
+                "billingAmount": {
+                    "amount": 45610.76,
+                    "currencyCode": "RUB"
+                },
+                "authorizationDocId": "fGzny4lIkh4AAAGVjpGOEr2dMmawQMoF",
+                "externalId": "fGzny4lIkh4AAAGVjpGOEr2dMmawQMoF",
+                "isFinancial": true,
+                "isHidden": false
+            },
+            {
+                "uohId": "9943ad22-b5c8-48ac-9d09-30646d5d8d85",
+                "date": "13.03.2025T10:25:53",
+                "creationChannel": 8,
+                "form": "UfsExtCardSalary",
+                "state": {
+                    "name": "FINANCIAL",
+                    "category": "executed"
+                },
+                "description": "Зачисление зарплаты",
+                "toResource": {
+                    "id": "card:1100010595758670",
+                    "displayedValue": "MasterCard Mass •• 6210"
+                },
+                "correspondent": "БАНК ВТБ (ПАО)",
+                "operationAmount": {
+                    "amount": 2523.00,
+                    "currencyCode": "RUR"
+                },
+                "nationalAmount": {
+                    "amount": 2523.00,
+                    "currencyCode": "RUB"
+                },
+                "attributes": {
+                    "copyable": false,
+                    "nfc": false,
+                    "cashReceipt": false,
+                    "compositePayment": false
+                },
+                "classificationCode": 4070000001,
+                "type": "payment",
+                "billingAmount": {
+                    "amount": 5046.00,
+                    "currencyCode": "RUB"
+                },
+                "authorizationDocId": "fGzny4lIkh4AAAGVjmTOcNU5kGBhHRYx",
+                "externalId": "fGzny4lIkh4AAAGVjmTOcNU5kGBhHRYx",
+                "isFinancial": true,
+                "isHidden": false
+            },
+            {
+                "uohId": "27d3cf92-41ca-438f-8498-d4dc4b857ba0",
+                "date": "12.03.2025T21:21:06",
+                "creationChannel": 8,
+                "form": "ExtCardPayment",
+                "state": {
+                    "name": "FINANCIAL",
+                    "category": "executed"
+                },
+                "description": "Оплата товаров и услуг",
+                "fromResource": {
+                    "id": "ct-account:3100070989701600",
+                    "displayedValue": "Платёжный счёт •• 1132"
+                },
+                "correspondent": "Азбука Вкуса",
+                "operationAmount": {
+                    "amount": -486.00,
+                    "currencyCode": "RUB"
+                },
+                "nationalAmount": {
+                    "amount": -486.00,
+                    "currencyCode": "RUB"
+                },
+                "attributes": {
+                    "copyable": false,
+                    "nfc": false,
+                    "cashReceipt": false,
+                    "compositePayment": false
+                },
+                "imageUrl": "https://cms-res.online.sberbank.ru/MERCHANT/d57dcd66-6d22-48fa-9d4d-dd8e82f4a22c.jpg",
+                "classificationCode": 5411,
+                "type": "payment",
+                "billingAmount": {
+                    "id": "3100070989701600",
+                    "name": "Платёжный счёт",
+                    "amount": 37510.76,
+                    "currencyCode": "RUB"
+                },
+                "authorizationDocId": "fGzny4lIkh4AAAGVi5a2aKnHueNwQuQ9",
+                "externalId": "fGzny4lIkh4AAAGVi5a2aKnHueNwQuQ9",
+                "isFinancial": true
+            },
+            {
+                "uohId": "82b41d2e-7f4c-40af-8d21-580879ad1382",
+                "date": "12.03.2025T17:55:10",
+                "creationChannel": 8,
+                "form": "ExtCardPayment",
+                "state": {
+                    "name": "FINANCIAL",
+                    "category": "executed"
+                },
+                "description": "Оплата товаров и услуг",
+                "fromResource": {
+                    "id": "ct-account:3100070989701650",
+                    "displayedValue": "Платёжный счёт •• 5435"
+                },
+                "correspondent": "VKUSNO_P_QR MOSCOW RUS",
+                "operationAmount": {
+                    "amount": -363.20,
+                    "currencyCode": "RUB"
+                },
+                "nationalAmount": {
+                    "amount": -363.20,
+                    "currencyCode": "RUB"
+                },
+                "attributes": {
+                    "copyable": false,
+                    "nfc": false,
+                    "cashReceipt": false,
+                    "compositePayment": false
+                },
+                "classificationCode": 5814,
+                "type": "payment",
+                "billingAmount": {
+                    "id": "3100070989701650",
+                    "name": "Платёжный счёт",
+                    "amount": 43959.68,
+                    "currencyCode": "RUB"
+                },
+                "authorizationDocId": "fGzny4lIkh4AAAGVitowsDUDOCLEcxWX",
+                "externalId": "fGzny4lIkh4AAAGVitowsDUDOCLEcxWX",
+                "isFinancial": true
+            },
+            {
+                "uohId": "42e6f41a-ae00-48e2-baf8-c6276d7cd8df",
+                "date": "12.03.2025T14:26:50",
+                "creationChannel": 8,
+                "form": "ExtCardPayment",
+                "state": {
+                    "name": "FINANCIAL",
+                    "category": "executed"
+                },
+                "description": "Оплата товаров и услуг",
+                "fromResource": {
+                    "id": "ct-account:3100070989701650",
+                    "displayedValue": "Платёжный счёт •• 5435"
+                },
+                "correspondent": "VKUSNO_P_QR MOSCOW RUS",
+                "operationAmount": {
+                    "amount": -429.00,
+                    "currencyCode": "RUB"
+                },
+                "nationalAmount": {
+                    "amount": -429.00,
+                    "currencyCode": "RUB"
+                },
+                "attributes": {
+                    "copyable": false,
+                    "nfc": false,
+                    "cashReceipt": false,
+                    "compositePayment": false
+                },
+                "classificationCode": 5814,
+                "type": "payment",
+                "billingAmount": {
+                    "id": "3100070989701650",
+                    "name": "Платёжный счёт",
+                    "amount": 44322.88,
+                    "currencyCode": "RUB"
+                },
+                "authorizationDocId": "fGzny4lIkh4AAAGVihtwqLCuxnzV+CN6",
+                "externalId": "fGzny4lIkh4AAAGVihtwqLCuxnzV+CN6",
+                "isFinancial": true
+            },
+            {
+                "uohId": "b8174b48-7cda-4aec-a932-e44003b1922b",
+                "date": "11.03.2025T18:55:19",
+                "creationChannel": 8,
+                "form": "ExtCardPayment",
+                "state": {
+                    "name": "FINANCIAL",
+                    "category": "executed"
+                },
+                "description": "Оплата товаров и услуг",
+                "fromResource": {
+                    "id": "ct-account:3100070989701650",
+                    "displayedValue": "Платёжный счёт •• 5435"
+                },
+                "correspondent": "VKUSNO_P_QR MOSCOW RUS",
+                "operationAmount": {
+                    "amount": -205.00,
+                    "currencyCode": "RUB"
+                },
+                "nationalAmount": {
+                    "amount": -205.00,
+                    "currencyCode": "RUB"
+                },
+                "attributes": {
+                    "copyable": false,
+                    "nfc": false,
+                    "cashReceipt": false,
+                    "compositePayment": false
+                },
+                "classificationCode": 5814,
+                "type": "payment",
+                "billingAmount": {
+                    "id": "3100070989701650",
+                    "name": "Платёжный счёт",
+                    "amount": 44751.88,
+                    "currencyCode": "RUB"
+                },
+                "authorizationDocId": "fGzny4lIkh4AAAGVhericN44c6psdj1m",
+                "externalId": "fGzny4lIkh4AAAGVhericN44c6psdj1m",
+                "isFinancial": true
+            },
+            {
+                "uohId": "84bb12eb-8e5c-4498-baa3-4cce975a7362",
+                "date": "11.03.2025T18:42:13",
+                "creationChannel": 8,
+                "form": "ExtCardPayment",
+                "state": {
+                    "name": "FINANCIAL",
+                    "category": "executed"
+                },
+                "description": "Оплата товаров и услуг",
+                "fromResource": {
+                    "id": "ct-account:3100070989701650",
+                    "displayedValue": "Платёжный счёт •• 5435"
+                },
+                "correspondent": "VKUSNO_P_QR MOSCOW RUS",
+                "operationAmount": {
+                    "amount": -222.40,
+                    "currencyCode": "RUB"
+                },
+                "nationalAmount": {
+                    "amount": -222.40,
+                    "currencyCode": "RUB"
+                },
+                "attributes": {
+                    "copyable": false,
+                    "nfc": false,
+                    "cashReceipt": false,
+                    "compositePayment": false
+                },
+                "classificationCode": 5814,
+                "type": "payment",
+                "billingAmount": {
+                    "id": "3100070989701650",
+                    "name": "Платёжный счёт",
+                    "amount": 44956.88,
+                    "currencyCode": "RUB"
+                },
+                "authorizationDocId": "fGzny4lIkh4AAAGVhd7kIAZ2nus0Dqba",
+                "externalId": "fGzny4lIkh4AAAGVhd7kIAZ2nus0Dqba",
+                "isFinancial": true
+            },
+            {
+                "uohId": "4dd542d6-c493-4353-8aff-ae7087bb40b0",
+                "date": "11.03.2025T16:15:00",
+                "creationChannel": 8,
+                "form": "ExtCardPayment",
+                "state": {
+                    "name": "FINANCIAL",
+                    "category": "executed"
+                },
+                "description": "Оплата товаров и услуг",
+                "fromResource": {
+                    "id": "ct-account:3100070989701600",
+                    "displayedValue": "Платёжный счёт •• 1132"
+                },
+                "correspondent": "HOZTOVARI MOSKVA G RUS",
+                "operationAmount": {
+                    "amount": -560.00,
+                    "currencyCode": "RUB"
+                },
+                "nationalAmount": {
+                    "amount": -560.00,
+                    "currencyCode": "RUB"
+                },
+                "attributes": {
+                    "copyable": false,
+                    "nfc": false,
+                    "cashReceipt": false,
+                    "compositePayment": false
+                },
+                "classificationCode": 5200,
+                "type": "payment",
+                "billingAmount": {
+                    "id": "3100070989701600",
+                    "name": "Платёжный счёт",
+                    "amount": 37996.76,
+                    "currencyCode": "RUB"
+                },
+                "authorizationDocId": "fGzny4lIkh4AAAGVhVgcOAZV0uVjGJef",
+                "externalId": "fGzny4lIkh4AAAGVic+/zj1oYDdUNpAa",
+                "isFinancial": true,
+                "isHidden": false
+            },
+            {
+                "uohId": "002749b5-9e42-4e86-825b-4c6da22bea8c",
+                "date": "11.03.2025T14:33:03",
+                "creationChannel": 8,
+                "form": "ExtCardPayment",
+                "state": {
+                    "name": "FINANCIAL",
+                    "category": "executed"
+                },
+                "description": "Оплата товаров и услуг",
+                "fromResource": {
+                    "id": "ct-account:3100070989701650",
+                    "displayedValue": "Платёжный счёт •• 5435"
+                },
+                "correspondent": "VKUSNO_P_QR MOSCOW RUS",
+                "operationAmount": {
+                    "amount": -398.00,
+                    "currencyCode": "RUB"
+                },
+                "nationalAmount": {
+                    "amount": -398.00,
+                    "currencyCode": "RUB"
+                },
+                "attributes": {
+                    "copyable": false,
+                    "nfc": false,
+                    "cashReceipt": false,
+                    "compositePayment": false
+                },
+                "classificationCode": 5814,
+                "type": "payment",
+                "billingAmount": {
+                    "id": "3100070989701650",
+                    "name": "Платёжный счёт",
+                    "amount": 45179.28,
+                    "currencyCode": "RUB"
+                },
+                "authorizationDocId": "fGzny4lIkh4AAAGVhPrFsBpaud4KHVsY",
+                "externalId": "fGzny4lIkh4AAAGVhPrFsBpaud4KHVsY",
+                "isFinancial": true
+            },
+            {
+                "uohId": "811d9559-1c4a-42fc-bfb9-70318e31d6f4",
+                "date": "11.03.2025T09:44:28",
+                "creationChannel": 8,
+                "form": "ExtCardPayment",
+                "state": {
+                    "name": "FINANCIAL",
+                    "category": "executed"
+                },
+                "description": "Оплата товаров и услуг",
+                "fromResource": {
+                    "id": "ct-account:3100070989701650",
+                    "displayedValue": "Платёжный счёт •• 5435"
+                },
+                "correspondent": "VKUSNO_P_QR MOSCOW RUS",
+                "operationAmount": {
+                    "amount": -365.95,
+                    "currencyCode": "RUB"
+                },
+                "nationalAmount": {
+                    "amount": -365.95,
+                    "currencyCode": "RUB"
+                },
+                "attributes": {
+                    "copyable": false,
+                    "nfc": false,
+                    "cashReceipt": false,
+                    "compositePayment": false
+                },
+                "classificationCode": 5814,
+                "type": "payment",
+                "billingAmount": {
+                    "id": "3100070989701650",
+                    "name": "Платёжный счёт",
+                    "amount": 45577.28,
+                    "currencyCode": "RUB"
+                },
+                "authorizationDocId": "fGzny4lIkh4AAAGVg/KU4KNF7BirfYEu",
+                "externalId": "fGzny4lIkh4AAAGVg/KU4KNF7BirfYEu",
+                "isFinancial": true
+            },
+            {
+                "uohId": "aeba9073-985a-4a97-800a-35c8da239297",
+                "date": "10.03.2025T22:35:38",
+                "creationChannel": 8,
+                "form": "UfsExtMMPLSBPOutNAcptTransfer",
+                "state": {
+                    "name": "FINANCIAL",
+                    "category": "executed"
+                },
+                "description": "Перевод по запросу СБП",
+                "fromResource": {
+                    "id": "ct-account:3100070989701600",
+                    "displayedValue": "Платёжный счёт •• 1132"
+                },
+                "correspondent": "Ozon банк",
+                "operationAmount": {
+                    "amount": -500.00,
+                    "currencyCode": "RUB"
+                },
+                "nationalAmount": {
+                    "amount": -500.00,
+                    "currencyCode": "RUB"
+                },
+                "attributes": {
+                    "copyable": false,
+                    "nfc": false,
+                    "cashReceipt": false,
+                    "compositePayment": false
+                },
+                "imageUrl": "https://cms-res.online.sberbank.ru/MERCHANT/b3ab7e74-94a6-4026-90e7-6c7a5439d474.png",
+                "classificationCode": 99992349,
+                "type": "payment",
+                "billingAmount": {
+                    "id": "3100070989701600",
+                    "name": "Платёжный счёт",
+                    "amount": 38556.76,
+                    "currencyCode": "RUB"
+                },
+                "authorizationDocId": "fGzny4lIkh4AAAGVgY4zYV4eo7AbQYng",
+                "externalId": "fGzny4lIkh4AAAGVgY4zYV4eo7AbQYng",
+                "isFinancial": true
+            },
+            {
+                "uohId": "7e4cae0d-cc82-454b-a7f8-e8f82da146d0",
+                "date": "10.03.2025T15:11:57",
+                "creationChannel": 8,
+                "form": "ExtCardPayment",
+                "state": {
+                    "name": "FINANCIAL",
+                    "category": "executed"
+                },
+                "description": "Оплата товаров и услуг",
+                "fromResource": {
+                    "id": "ct-account:3100070989701650",
+                    "displayedValue": "Платёжный счёт •• 5435"
+                },
+                "correspondent": "VKUSNO_P_QR MOSCOW RUS",
+                "operationAmount": {
+                    "amount": -500.00,
+                    "currencyCode": "RUB"
+                },
+                "nationalAmount": {
+                    "amount": -500.00,
+                    "currencyCode": "RUB"
+                },
+                "attributes": {
+                    "copyable": false,
+                    "nfc": false,
+                    "cashReceipt": false,
+                    "compositePayment": false
+                },
+                "classificationCode": 5814,
+                "type": "payment",
+                "billingAmount": {
+                    "id": "3100070989701650",
+                    "name": "Платёжный счёт",
+                    "amount": 45943.23,
+                    "currencyCode": "RUB"
+                },
+                "authorizationDocId": "fGzny4lIkh4AAAGVf/gKyCuqPnKLNvsQ",
+                "externalId": "fGzny4lIkh4AAAGVf/gKyCuqPnKLNvsQ",
+                "isFinancial": true
+            },
+            {
+                "uohId": "406e8798-270a-4c1c-b0c7-fa542ee2e771",
+                "date": "09.03.2025T21:14:10",
+                "creationChannel": 8,
+                "form": "UfsExtMMPLSBPOutNAcptTransfer",
+                "state": {
+                    "name": "FINANCIAL",
+                    "category": "executed"
+                },
+                "description": "Перевод по запросу СБП",
+                "fromResource": {
+                    "id": "ct-account:3100070989701600",
+                    "displayedValue": "Платёжный счёт •• 1132"
+                },
+                "correspondent": "Ozon банк",
+                "operationAmount": {
+                    "amount": -2000.00,
+                    "currencyCode": "RUB"
+                },
+                "nationalAmount": {
+                    "amount": -2000.00,
+                    "currencyCode": "RUB"
+                },
+                "attributes": {
+                    "copyable": false,
+                    "nfc": false,
+                    "cashReceipt": false,
+                    "compositePayment": false
+                },
+                "imageUrl": "https://cms-res.online.sberbank.ru/MERCHANT/b3ab7e74-94a6-4026-90e7-6c7a5439d474.png",
+                "classificationCode": 99992349,
+                "type": "payment",
+                "billingAmount": {
+                    "id": "3100070989701600",
+                    "name": "Платёжный счёт",
+                    "amount": 39056.76,
+                    "currencyCode": "RUB"
+                },
+                "authorizationDocId": "fGzny4lIkh4AAAGVfB1E1juPZnxXiYFt",
+                "externalId": "fGzny4lIkh4AAAGVfB1E1juPZnxXiYFt",
+                "isFinancial": true
+            },
+            {
+                "uohId": "00b6c445-5eba-4eac-ab80-13af8d485337",
+                "date": "09.03.2025T19:38:32",
+                "creationChannel": 8,
+                "form": "ExtCardPayment",
+                "state": {
+                    "name": "FINANCIAL",
+                    "category": "executed"
+                },
+                "description": "Оплата товаров и услуг",
+                "fromResource": {
+                    "id": "ct-account:3100070989701600",
+                    "displayedValue": "Платёжный счёт •• 1132"
+                },
+                "correspondent": "U DOMA DLYA DOMA MOSKVA RUS",
+                "operationAmount": {
+                    "amount": -499.00,
+                    "currencyCode": "RUB"
+                },
+                "nationalAmount": {
+                    "amount": -499.00,
+                    "currencyCode": "RUB"
+                },
+                "attributes": {
+                    "copyable": false,
+                    "nfc": false,
+                    "cashReceipt": false,
+                    "compositePayment": false
+                },
+                "classificationCode": 5999,
+                "type": "payment",
+                "billingAmount": {
+                    "id": "3100070989701600",
+                    "name": "Платёжный счёт",
+                    "amount": 41056.76,
+                    "currencyCode": "RUB"
+                },
+                "authorizationDocId": "fGzny4lIkh4AAAGVe8W7WE2FD8h8CGvK",
+                "externalId": "fGzny4lIkh4AAAGVfy7p6PB2/Kld4kup",
+                "isFinancial": true,
+                "isHidden": false
+            },
+            {
+                "uohId": "d5c038bd-47cc-462f-9c12-5fcf1d8e8a80",
+                "date": "09.03.2025T19:08:35",
+                "creationChannel": 8,
+                "form": "ExtCardPayment",
+                "state": {
+                    "name": "FINANCIAL",
+                    "category": "executed"
+                },
+                "description": "Оплата товаров и услуг",
+                "fromResource": {
+                    "id": "ct-account:3100070989701600",
+                    "displayedValue": "Платёжный счёт •• 1132"
+                },
+                "correspondent": "OBI 131 MOSCOW RUS",
+                "operationAmount": {
+                    "amount": -475.00,
+                    "currencyCode": "RUB"
+                },
+                "nationalAmount": {
+                    "amount": -475.00,
+                    "currencyCode": "RUB"
+                },
+                "attributes": {
+                    "copyable": false,
+                    "nfc": false,
+                    "cashReceipt": false,
+                    "compositePayment": false
+                },
+                "classificationCode": 5200,
+                "type": "payment",
+                "billingAmount": {
+                    "id": "3100070989701600",
+                    "name": "Платёжный счёт",
+                    "amount": 41555.76,
+                    "currencyCode": "RUB"
+                },
+                "authorizationDocId": "fGzny4lIkh4AAAGVe6pTuHf6H+brzERP",
+                "externalId": "fGzny4lIkh4AAAGVe6pTuHf6H+brzERP",
+                "isFinancial": true
+            },
+            {
+                "uohId": "5923aa94-2349-4806-a74a-d35ef7b4777c",
+                "date": "09.03.2025T17:03:41",
+                "creationChannel": 8,
+                "form": "ExtCardPayment",
+                "state": {
+                    "name": "FINANCIAL",
+                    "category": "executed"
+                },
+                "description": "Оплата товаров и услуг",
+                "fromResource": {
+                    "id": "ct-account:3100070989701600",
+                    "displayedValue": "Платёжный счёт •• 1132"
+                },
+                "correspondent": "Цветы",
+                "operationAmount": {
+                    "amount": -1060.00,
+                    "currencyCode": "RUB"
+                },
+                "nationalAmount": {
+                    "amount": -1060.00,
+                    "currencyCode": "RUB"
+                },
+                "attributes": {
+                    "copyable": false,
+                    "nfc": false,
+                    "cashReceipt": false,
+                    "compositePayment": false
+                },
+                "classificationCode": 5193,
+                "type": "payment",
+                "billingAmount": {
+                    "id": "3100070989701600",
+                    "name": "Платёжный счёт",
+                    "amount": 42030.76,
+                    "currencyCode": "RUB"
+                },
+                "authorizationDocId": "fGzny4lIkh4AAAGVezf2YHhpJhx4cs93",
+                "externalId": "fGzny4lIkh4AAAGVezf2YHhpJhx4cs93",
+                "isFinancial": true
+            },
+            {
+                "uohId": "557faada-55f3-47d8-b529-a1be488b11fb",
+                "ufsId": "0001_1000000001013579622",
+                "date": "09.03.2025T15:40:41",
+                "creationChannel": 3,
+                "form": "UfsP2PSBPOutTransfer",
+                "state": {
+                    "name": "EXECUTED",
+                    "category": "executed"
+                },
+                "description": "Перевод по СБП",
+                "fromResource": {
+                    "id": "card:1100010595758220",
+                    "displayedValue": "Visa Classic •• 0239"
+                },
+                "correspondent": "Денис Александрович З",
+                "operationAmount": {
+                    "amount": -8100.00,
+                    "currencyCode": "RUB"
+                },
+                "nationalAmount": {
+                    "amount": -8100.00,
+                    "currencyCode": "RUB"
+                },
+                "commission": {
+                    "amount": 0.00,
+                    "currencyCode": "RUB"
+                },
+                "attributes": {
+                    "copyable": false,
+                    "nfc": false,
+                    "cashReceipt": false,
+                    "compositePayment": false
+                },
+                "type": "ufsPayment",
+                "billingAmount": {
+                    "id": "1100010595758220",
+                    "name": "Visa Classic",
+                    "amount": 43090.76,
+                    "currencyCode": "RUB"
+                },
+                "externalId": "0001_1000000001013579622",
+                "isFinancial": true
+            },
+            {
+                "uohId": "09a0fd00-079c-4a8b-90f0-9bb70ca175cc",
+                "date": "09.03.2025T15:12:10",
+                "creationChannel": 8,
+                "form": "ExtCardPayment",
+                "state": {
+                    "name": "FINANCIAL",
+                    "category": "executed"
+                },
+                "description": "Оплата товаров и услуг",
+                "fromResource": {
+                    "id": "ct-account:3100070989701600",
+                    "displayedValue": "Платёжный счёт •• 1132"
+                },
+                "correspondent": "Fix Price",
+                "operationAmount": {
+                    "amount": -79.00,
+                    "currencyCode": "RUB"
+                },
+                "nationalAmount": {
+                    "amount": -79.00,
+                    "currencyCode": "RUB"
+                },
+                "attributes": {
+                    "copyable": false,
+                    "nfc": false,
+                    "cashReceipt": false,
+                    "compositePayment": false
+                },
+                "imageUrl": "https://cms-res.online.sberbank.ru/MERCHANT/40a40424-0423-4952-8560-a050c6258aed.jpg",
+                "classificationCode": 5331,
+                "type": "payment",
+                "billingAmount": {
+                    "id": "3100070989701600",
+                    "name": "Платёжный счёт",
+                    "amount": 51190.76,
+                    "currencyCode": "RUB"
+                },
+                "authorizationDocId": "fGzny4lIkh4AAAGVetHdqHBR0SM3M6Ig",
+                "externalId": "fGzny4lIkh4AAAGVetHdqHBR0SM3M6Ig",
+                "isFinancial": true
+            },
+            {
+                "uohId": "e25d693b-5b15-482b-8fde-61bf4f056b01",
+                "ufsId": "0001_1000000001013201835",
+                "date": "09.03.2025T15:04:16",
+                "creationChannel": 3,
+                "form": "UfsOutTransfer",
+                "state": {
+                    "name": "EXECUTED",
+                    "category": "executed"
+                },
+                "description": "Клиенту Сбера",
+                "fromResource": {
+                    "id": "ct-account:3100070989701600",
+                    "displayedValue": "Платёжный счёт •• 1132"
+                },
+                "toResource": {
+                    "displayedValue": "•• 7823"
+                },
+                "correspondent": "Сайёра Саибовна Х.",
+                "operationAmount": {
+                    "amount": -300.00,
+                    "currencyCode": "RUB"
+                },
+                "nationalAmount": {
+                    "amount": -300.00,
+                    "currencyCode": "RUB"
+                },
+                "commission": {
+                    "amount": 0.00,
+                    "currencyCode": "RUR"
+                },
+                "attributes": {
+                    "copyable": true,
+                    "nfc": false,
+                    "cashReceipt": false,
+                    "compositePayment": false
+                },
+                "type": "ufsPayment",
+                "billingAmount": {
+                    "id": "3100070989701600",
+                    "name": "Платёжный счёт",
+                    "amount": 51269.76,
+                    "currencyCode": "RUB"
+                },
+                "externalId": "0001_1000000001013201835",
+                "isFinancial": true
+            },
+            {
+                "uohId": "5cceb753-e954-4438-835c-2eca9b792b1a",
+                "ufsId": "0001_1000000001013129652",
+                "date": "09.03.2025T14:55:51",
+                "creationChannel": 3,
+                "form": "UfsP2PSBPOutTransfer",
+                "state": {
+                    "name": "EXECUTED",
+                    "category": "executed"
+                },
+                "description": "Перевод по СБП",
+                "fromResource": {
+                    "id": "card:1100018790199620",
+                    "displayedValue": "МИР Социальная •• 2423"
+                },
+                "correspondent": "Юрий Алексеевич З",
+                "operationAmount": {
+                    "amount": -8650.00,
+                    "currencyCode": "RUB"
+                },
+                "nationalAmount": {
+                    "amount": -8650.00,
+                    "currencyCode": "RUB"
+                },
+                "commission": {
+                    "amount": 0.00,
+                    "currencyCode": "RUB"
+                },
+                "attributes": {
+                    "copyable": false,
+                    "nfc": false,
+                    "cashReceipt": false,
+                    "compositePayment": false
+                },
+                "type": "ufsPayment",
+                "billingAmount": {
+                    "id": "1100018790199620",
+                    "name": "МИР Социальная",
+                    "amount": 46443.23,
+                    "currencyCode": "RUB"
+                },
+                "externalId": "0001_1000000001013129652",
+                "isFinancial": true
+            },
+            {
+                "uohId": "b470ed8c-2f04-4440-b941-7c18a0466058",
+                "ufsId": "0001_1000000001008089275",
+                "date": "08.03.2025T18:45:57",
+                "creationChannel": 3,
+                "form": "UfsOutTransfer",
+                "state": {
+                    "name": "EXECUTED",
+                    "category": "executed"
+                },
+                "description": "Клиенту Сбера",
+                "fromResource": {
+                    "id": "ct-account:3100070989701600",
+                    "displayedValue": "Платёжный счёт •• 1132"
+                },
+                "toResource": {
+                    "displayedValue": "•• 6211"
+                },
+                "correspondent": "Анастасия Андреевна К.",
+                "operationAmount": {
+                    "amount": -5000.00,
+                    "currencyCode": "RUB"
+                },
+                "nationalAmount": {
+                    "amount": -5000.00,
+                    "currencyCode": "RUB"
+                },
+                "commission": {
+                    "amount": 0.00,
+                    "currencyCode": "RUR"
+                },
+                "attributes": {
+                    "copyable": true,
+                    "nfc": false,
+                    "cashReceipt": false,
+                    "compositePayment": false
+                },
+                "type": "ufsPayment",
+                "billingAmount": {
+                    "id": "3100070989701600",
+                    "name": "Платёжный счёт",
+                    "amount": 51569.76,
+                    "currencyCode": "RUB"
+                },
+                "externalId": "0001_1000000001008089275",
+                "isFinancial": true
+            },
+            {
+                "uohId": "4a52e16b-5735-49a2-84a3-0c8b75c9e28f",
+                "date": "08.03.2025T18:38:27",
+                "creationChannel": 8,
+                "form": "ExtCardPayment",
+                "state": {
+                    "name": "FINANCIAL",
+                    "category": "executed"
+                },
+                "description": "Оплата товаров и услуг",
+                "fromResource": {
+                    "id": "ct-account:3100070989701650",
+                    "displayedValue": "Платёжный счёт •• 5435"
+                },
+                "correspondent": "VKUSVILL_7036_QR MOSCOW RUS",
+                "operationAmount": {
+                    "amount": -427.00,
+                    "currencyCode": "RUB"
+                },
+                "nationalAmount": {
+                    "amount": -427.00,
+                    "currencyCode": "RUB"
+                },
+                "attributes": {
+                    "copyable": false,
+                    "nfc": false,
+                    "cashReceipt": false,
+                    "compositePayment": false
+                },
+                "classificationCode": 5411,
+                "type": "payment",
+                "billingAmount": {
+                    "id": "3100070989701650",
+                    "name": "Платёжный счёт",
+                    "amount": 55093.23,
+                    "currencyCode": "RUB"
+                },
+                "authorizationDocId": "fGzny4lIkh4AAAGVdmhdULfUKFlWN7h0",
+                "externalId": "fGzny4lIkh4AAAGVdmhdULfUKFlWN7h0",
+                "isFinancial": true
+            },
+            {
+                "uohId": "d8aab7a4-a4e1-4fc4-a657-415ed1817a58",
+                "date": "08.03.2025T13:45:35",
+                "creationChannel": 8,
+                "form": "ExtCardPayment",
+                "state": {
+                    "name": "FINANCIAL",
+                    "category": "executed"
+                },
+                "description": "Оплата товаров и услуг",
+                "fromResource": {
+                    "id": "ct-account:3100070989701600",
+                    "displayedValue": "Платёжный счёт •• 1132"
+                },
+                "correspondent": "КуулКлевер",
+                "operationAmount": {
+                    "amount": -2393.40,
+                    "currencyCode": "RUB"
+                },
+                "nationalAmount": {
+                    "amount": -2393.40,
+                    "currencyCode": "RUB"
+                },
+                "attributes": {
+                    "copyable": false,
+                    "nfc": false,
+                    "cashReceipt": false,
+                    "compositePayment": false
+                },
+                "imageUrl": "https://cms-res.online.sberbank.ru/MERCHANT/646e034d-b99f-4e19-8273-0712edc48786.png",
+                "classificationCode": 5411,
+                "type": "payment",
+                "billingAmount": {
+                    "id": "3100070989701600",
+                    "name": "Платёжный счёт",
+                    "amount": 56569.76,
+                    "currencyCode": "RUB"
+                },
+                "authorizationDocId": "fGzny4lIkh4AAAGVdVxAmInRRXoW3d8S",
+                "externalId": "fGzny4lIkh4AAAGVdVxAmInRRXoW3d8S",
+                "isFinancial": true
+            },
+            {
+                "uohId": "d9ce4a3c-67d5-4dd8-953f-6845a03055f7",
+                "ufsId": "0001_1000000001003613153",
+                "date": "08.03.2025T12:11:38",
+                "creationChannel": 3,
+                "form": "UfsQRSBP",
+                "state": {
+                    "name": "EXECUTED",
+                    "category": "executed"
+                },
+                "description": "Оплата по QR-коду СБП",
+                "fromResource": {
+                    "id": "ct-account:3100070989701600",
+                    "displayedValue": "Платёжный счёт •• 1132"
+                },
+                "correspondent": "NETMONET RUS",
+                "operationAmount": {
+                    "amount": -543.00,
+                    "currencyCode": "RUB"
+                },
+                "nationalAmount": {
+                    "amount": -543.00,
+                    "currencyCode": "RUB"
+                },
+                "commission": {
+                    "amount": 0.00,
+                    "currencyCode": "RUB"
+                },
+                "attributes": {
+                    "copyable": false,
+                    "nfc": false,
+                    "cashReceipt": false,
+                    "compositePayment": false
+                },
+                "classificationCode": 7299,
+                "type": "ufsPayment",
+                "billingAmount": {
+                    "id": "3100070989701600",
+                    "name": "Платёжный счёт",
+                    "amount": 58963.16,
+                    "currencyCode": "RUB"
+                },
+                "externalId": "0001_1000000001003613153",
+                "isFinancial": true
+            },
+            {
+                "uohId": "a71bfbc1-c4cf-41de-9412-b83143764b09",
+                "ufsId": "0001_1000000001003603646",
+                "date": "08.03.2025T12:10:51",
+                "creationChannel": 3,
+                "form": "UfsQRSBP",
+                "state": {
+                    "name": "EXECUTED",
+                    "category": "executed"
+                },
+                "description": "Оплата по QR-коду СБП",
+                "fromResource": {
+                    "id": "ct-account:3100070989701600",
+                    "displayedValue": "Платёжный счёт •• 1132"
+                },
+                "correspondent": "пиццерия IL Pittore RUS",
+                "operationAmount": {
+                    "amount": -5480.00,
+                    "currencyCode": "RUB"
+                },
+                "nationalAmount": {
+                    "amount": -5480.00,
+                    "currencyCode": "RUB"
+                },
+                "commission": {
+                    "amount": 0.00,
+                    "currencyCode": "RUB"
+                },
+                "attributes": {
+                    "copyable": false,
+                    "nfc": false,
+                    "cashReceipt": false,
+                    "compositePayment": false
+                },
+                "classificationCode": 5812,
+                "type": "ufsPayment",
+                "billingAmount": {
+                    "id": "3100070989701600",
+                    "name": "Платёжный счёт",
+                    "amount": 59506.16,
+                    "currencyCode": "RUB"
+                },
+                "externalId": "0001_1000000001003603646",
+                "isFinancial": true
+            },
+            {
+                "uohId": "101e153a-07b9-45bb-b0cb-115c25eee424",
+                "ufsId": "0001_1000000000998270530",
+                "date": "07.03.2025T22:22:31",
+                "creationChannel": 3,
+                "form": "UfsOutTransfer",
+                "state": {
+                    "name": "EXECUTED",
+                    "category": "executed"
+                },
+                "description": "Клиенту Сбера",
+                "fromResource": {
+                    "id": "ct-account:3100070989701600",
+                    "displayedValue": "Платёжный счёт •• 1132"
+                },
+                "toResource": {
+                    "displayedValue": "•• 6130"
+                },
+                "correspondent": "Бахром Хайитович А.",
+                "operationAmount": {
+                    "amount": -7000.00,
+                    "currencyCode": "RUB"
+                },
+                "nationalAmount": {
+                    "amount": -7000.00,
+                    "currencyCode": "RUB"
+                },
+                "commission": {
+                    "amount": 0.00,
+                    "currencyCode": "RUR"
+                },
+                "attributes": {
+                    "copyable": true,
+                    "nfc": false,
+                    "cashReceipt": false,
+                    "compositePayment": false
+                },
+                "type": "ufsPayment",
+                "billingAmount": {
+                    "id": "3100070989701600",
+                    "name": "Платёжный счёт",
+                    "amount": 64986.16,
+                    "currencyCode": "RUB"
+                },
+                "externalId": "0001_1000000000998270530",
+                "isFinancial": true
+            },
+            {
+                "uohId": "f0c8adf5-0cfc-4713-8e85-dd94b5af15e0",
+                "date": "07.03.2025T22:03:10",
+                "creationChannel": 8,
+                "form": "ExtCardPayment",
+                "state": {
+                    "name": "FINANCIAL",
+                    "category": "executed"
+                },
+                "description": "Оплата товаров и услуг",
+                "fromResource": {
+                    "id": "ct-account:3100070989701600",
+                    "displayedValue": "Платёжный счёт •• 1132"
+                },
+                "correspondent": "DELIMOBIL MOSCOW MOSCOW RUS",
+                "operationAmount": {
+                    "amount": -220.56,
+                    "currencyCode": "RUB"
+                },
+                "nationalAmount": {
+                    "amount": -220.56,
+                    "currencyCode": "RUB"
+                },
+                "attributes": {
+                    "copyable": false,
+                    "nfc": false,
+                    "cashReceipt": false,
+                    "compositePayment": false
+                },
+                "classificationCode": 7512,
+                "type": "payment",
+                "billingAmount": {
+                    "id": "3100070989701600",
+                    "name": "Платёжный счёт",
+                    "amount": 71986.16,
+                    "currencyCode": "RUB"
+                },
+                "authorizationDocId": "fGzny4lIkh4AAAGVcf1tyNlGTwK72+ax",
+                "externalId": "fGzny4lIkh4AAAGVcf1tyNlGTwK72+ax",
+                "isFinancial": true
+            }
+        ]
+    }
+}
