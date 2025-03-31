@@ -34,6 +34,29 @@ categories = {
     12: "Credit",
     13: "Rent apartments",
     14: "Theatre",
+    15: "Salary",
+    16: "Charity",
+    17: "Gifts",
+    18: "Electronics",
+    19: "Household",
+    20: "Debt"
+}
+
+mcc = {
+    4: [5814, 5411, 5499, 5921],
+    5: [7512, 4121, 4111, 7999, 5541, 4789, 5541],
+    16: [8398],
+    15: [4070000016, 4070000001, 4070000009],
+    8: [7230],
+    10: [7841, 4816, 3990],
+    7: [4900, 3000000002],
+    14: [7922, 7991],
+    3: [5912],
+    12: [6012],
+    1: [5812, 7299],
+    9: [7832],
+    19: [5942, 5921, 99992349, 5999, 5200],
+    17: [5193]
 }
 
 year, month = 2025, 3
@@ -63,6 +86,12 @@ def save_processed():
     with open(processed_file, 'wb') as fp:
         pickle.dump(processed_payments, fp)
 
+
+def get_category_by_mcc(mcc_code):
+    for category, mcc_list in mcc.items():
+        if mcc_code in mcc_list:
+            return category
+    return None
 
 
 if __name__ == '__main__':
@@ -95,10 +124,27 @@ if __name__ == '__main__':
                     processed_payments.append(uuid)
                     continue
             
-            cat_id = int(input(f"What category for {operation['correspondent']} {operation['description']}: "))
-            if cat_id == 0:
+            mcc_code = operation.get('classificationCode')
+            recommended_category: int = get_category_by_mcc(mcc_code)
+            cat_id = input(
+                f'''
+                Payment {len(operations.keys()) - len(processed_payments)}. What category for: 
+                    CORRESPONDENT: {operation['correspondent']}
+                    OPERATIONS: {operation['description']}
+                    DATE: {operation['date']}
+                    AMOUNT: {operation['operationAmount']['amount']}
+                    MCC: {mcc_code}
+                Recommended category: {categories[recommended_category] if recommended_category else ''}
+                '''
+            )
+
+            if cat_id == '':
+                cat_id = recommended_category
+            elif cat_id == '0':
                 save_processed()
                 sys.exit(-1)
+            else:
+                cat_id = int(cat_id)
                 
             ch_client.insert(
                 'bills.operations',
