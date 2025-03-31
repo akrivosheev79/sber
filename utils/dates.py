@@ -23,11 +23,11 @@ class Month(Enum):
                 return month.name.capitalize()
         return None
 
+
 def get_all_days_of_month(year: int, month: int) -> set[date]:
     first_day = datetime(year, month, 1).date()
     next_month = first_day.replace(month=month % 12 + 1, day=1)
     last_day = next_month - timedelta(days=1)
     return {
-        first_day + timedelta(days=i)
-        for i in range((last_day - first_day).days + 1)
+        first_day + timedelta(days=i) for i in range((last_day - first_day).days + 1)
     }
