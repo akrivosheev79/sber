@@ -31,3 +31,21 @@ def get_all_days_of_month(year: int, month: int) -> set[date]:
     return {
         first_day + timedelta(days=i) for i in range((last_day - first_day).days + 1)
     }
+
+
+def get_all_days_between(dt_start: date, dt_end: date) -> set[date]:
+    delta = dt_end - dt_start   # returns timedelta
+
+    return {
+        dt_start + timedelta(days=i) for i in range(delta.days + 1)
+    }
+
+
+def get_last_day_of_month(year: int, month: int) -> int:
+    first_day = datetime(year, month, 1).date()
+    next_month = first_day.replace(month=month % 12 + 1, day=1)
+    return (next_month - timedelta(days=1)).day
+
+
+def get_date_from_string(date_string: str) -> date:
+    return datetime.strptime(date_string, "%d.%m.%YT%H:%M:%S").date()
