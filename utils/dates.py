@@ -49,3 +49,4 @@ def get_last_day_of_month(year: int, month: int) -> int:
 
 def get_date_from_string(date_string: str) -> date:
     return datetime.strptime(date_string, "%d.%m.%YT%H:%M:%S").date()
+

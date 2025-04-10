@@ -1,0 +1,890 @@
+{
+    "resultCode": "OK",
+    "payload": [
+        {
+            "loyaltyBonusSummary": {
+                "amount": 0.0
+            },
+            "isOffline": false,
+            "icon": "https://brands-prod.cdn-tinkoff.ru/general_logo/transfers-c1.png",
+            "isInner": false,
+            "type": "Credit",
+            "isAuto": false,
+            "subgroup": {
+                "id": "C4",
+                "name": "Пополнения"
+            },
+            "isDispute": false,
+            "analyticsStatus": "NotSpecified",
+            "typeSerno": 576,
+            "hasStatement": true,
+            "isSuspicious": false,
+            "authorizationId": "290413762646",
+            "id": "110331149763",
+            "status": "OK",
+            "operationTransferred": false,
+            "idSourceType": "Prime",
+            "loyaltyBonus": [],
+            "cashbackAmount": {
+                "currency": {
+                    "code": 643,
+                    "name": "RUB",
+                    "strCode": "643"
+                },
+                "value": 0.0000
+            },
+            "description": "Пополнение. ИНДИВИДУАЛЬНЫЙ ПРЕДПРИНИМАТЕЛЬ МОЛЧАНОВ ДМИТРИЙ ЮРЬЕВИЧ",
+            "debitingTime": {
+                "milliseconds": 1743973200000
+            },
+            "isTemplatable": false,
+            "mcc": 0,
+            "ucid": "1102761209",
+            "group": "INCOME",
+            "mccString": "0000",
+            "locations": [],
+            "cashback": 0.0,
+            "operationId": {
+                "value": "290413762646",
+                "source": "PrimeAuth"
+            },
+            "amount": {
+                "currency": {
+                    "code": 643,
+                    "name": "RUB",
+                    "strCode": "643"
+                },
+                "value": 256000.0000
+            },
+            "operationTime": {
+                "milliseconds": 1744011077000
+            },
+            "posId": "972",
+            "subcategory": "Пополнение. ИНДИВИДУАЛЬНЫЙ ПРЕДПРИНИМАТЕЛЬ МОЛЧАНОВ ДМИТРИЙ ЮРЬЕВИЧ",
+            "spendingCategory": {
+                "name": "Переводы",
+                "icon": "transfers-c1",
+                "id": "24",
+                "baseColor": "4FC5DF"
+            },
+            "offers": [],
+            "isHce": false,
+            "category": {
+                "id": "45",
+                "name": "Другое"
+            },
+            "additionalInfo": [],
+            "virtualPaymentType": 0,
+            "account": "5394140593",
+            "card": "100675032",
+            "loyaltyPayment": [],
+            "trancheCreationAllowed": false,
+            "senderAgreement": "7035207132",
+            "cardPresent": false,
+            "accountAmount": {
+                "currency": {
+                    "code": 643,
+                    "name": "RUB",
+                    "strCode": "643"
+                },
+                "value": 256000.0000
+            },
+            "isExternalCard": false,
+            "cardNumber": "553691******1184"
+        },
+        {
+            "loyaltyBonusSummary": {
+                "amount": 0.0
+            },
+            "isOffline": false,
+            "icon": "https://brands-prod.cdn-tinkoff.ru/general_logo/fns.png",
+            "isInner": false,
+            "type": "Debit",
+            "isAuto": false,
+            "subgroup": {
+                "id": "F1",
+                "name": "Переводы"
+            },
+            "isDispute": false,
+            "analyticsStatus": "NotSpecified",
+            "typeSerno": 865,
+            "hasStatement": false,
+            "isSuspicious": false,
+            "authorizationId": "290401487533",
+            "payment": {
+                "paymentId": "23029153323",
+                "providerGroupId": "Госуслуги",
+                "paymentType": "Payment",
+                "feeAmount": {
+                    "currency": {
+                        "code": 643,
+                        "name": "RUB",
+                        "strCode": "643"
+                    },
+                    "value": 0.0000
+                },
+                "providerId": "fns-npd",
+                "hasPaymentOrder": false,
+                "comment": "",
+                "repeatable": false,
+                "cardNumber": "553691******1184",
+                "sourceIsQr": false,
+                "bankAccountId": "5394140593",
+                "isQrPayment": false,
+                "fieldsValues": {
+                    "okato": "45000000",
+                    "bankAcnt": "03100643000000018500",
+                    "fio": "Кривошеев Андрей Олегович",
+                    "altPayerIdentifier": "1210000000503224661197",
+                    "taxEvidence": "0",
+                    "kbk": "18210506000011000110",
+                    "bankBik": "017003983",
+                    "igBillId": "1210000000503224661197&18210506000011000110&835200",
+                    "taxPayerStatus": "01",
+                    "validUntil": "30.03.2025",
+                    "subscriptionId": "1053523305",
+                    "taxDocNumber": "0",
+                    "kpp": "770801001",
+                    "taxType": "0",
+                    "taxDocDate": "0",
+                    "addressee": "Казначейство России (ФНС России)",
+                    "uin": "18209997250145857434",
+                    "bankCorrAcnt": "40102810445370000059",
+                    "inn": "7727406020",
+                    "address": "119021,РОССИЯ,Москва г,,,,Комсомольский пр-кт,20,,",
+                    "clientINN": "503224661197",
+                    "taxPeriod": "30.03.2025"
+                }
+            },
+            "id": "109938839257",
+            "operationPaymentType": "NORMAL",
+            "status": "OK",
+            "operationTransferred": false,
+            "idSourceType": "Prime",
+            "loyaltyBonus": [],
+            "cashbackAmount": {
+                "currency": {
+                    "code": 643,
+                    "name": "RUB",
+                    "strCode": "643"
+                },
+                "value": 0.0000
+            },
+            "description": "Федеральная Налоговая Служба (Самозанятые)",
+            "debitingTime": {
+                "milliseconds": 1743627600000
+            },
+            "isTemplatable": false,
+            "mcc": 9,
+            "ucid": "1102761209",
+            "group": "TRANSFER",
+            "mccString": "0009",
+            "locations": [],
+            "cashback": 0.0,
+            "brand": {
+                "name": "Федеральная Налоговая Служба",
+                "baseTextColor": "ffffff",
+                "fileLink": "https://brands-prod.cdn-tinkoff.ru/general_logo/fns.png",
+                "link": "https://nalog.gov.ru",
+                "baseColor": "0077c5",
+                "logoFile": "fns.png",
+                "logo": "https://brands-prod.cdn-tinkoff.ru/general_logo/fns.png",
+                "id": "7189",
+                "roundedLogo": false
+            },
+            "operationId": {
+                "value": "290401487533",
+                "source": "PrimeAuth"
+            },
+            "amount": {
+                "currency": {
+                    "code": 643,
+                    "name": "RUB",
+                    "strCode": "643"
+                },
+                "value": 8352.0000
+            },
+            "operationTime": {
+                "milliseconds": 1743677965000
+            },
+            "posId": "TCS",
+            "merchantKey": "Федеральная Налоговая Служба",
+            "spendingCategory": {
+                "name": "Переводы",
+                "icon": "transfers-c1",
+                "id": "24",
+                "baseColor": "4FC5DF"
+            },
+            "offers": [],
+            "isHce": false,
+            "category": {
+                "id": "45",
+                "name": "Другое"
+            },
+            "isCollection": false,
+            "additionalInfo": [],
+            "virtualPaymentType": 0,
+            "account": "5394140593",
+            "merchant": {
+                "name": "Федеральная Налоговая Служба"
+            },
+            "loyaltyPayment": [],
+            "trancheCreationAllowed": false,
+            "cardPresent": false,
+            "accountAmount": {
+                "currency": {
+                    "code": 643,
+                    "name": "RUB",
+                    "strCode": "643"
+                },
+                "value": 8352.0000
+            },
+            "isExternalCard": false,
+            "cardNumber": "553691******1184"
+        },
+        {
+            "loyaltyBonusSummary": {
+                "amount": 0.0
+            },
+            "isOffline": false,
+            "icon": "https://brands-prod.cdn-tinkoff.ru/general_logo/percents-c.png",
+            "isInner": false,
+            "type": "Debit",
+            "isAuto": false,
+            "subgroup": {
+                "id": "D2",
+                "name": "Услуги банка"
+            },
+            "isDispute": false,
+            "analyticsStatus": "NotSpecified",
+            "typeSerno": 232,
+            "hasStatement": true,
+            "isSuspicious": false,
+            "id": "108831075061",
+            "status": "OK",
+            "operationTransferred": false,
+            "idSourceType": "Prime",
+            "loyaltyBonus": [],
+            "cashbackAmount": {
+                "currency": {
+                    "code": 643,
+                    "name": "RUB",
+                    "strCode": "643"
+                },
+                "value": 0.0000
+            },
+            "description": "Плата за обслуживание",
+            "debitingTime": {
+                "milliseconds": 1742677200000
+            },
+            "isTemplatable": false,
+            "mcc": 9999,
+            "group": "CHARGE",
+            "mccString": "9999",
+            "locations": [],
+            "cashback": 0.0,
+            "operationId": {
+                "value": "108831075061",
+                "source": "PrimeTrxn"
+            },
+            "amount": {
+                "currency": {
+                    "code": 643,
+                    "name": "RUB",
+                    "strCode": "643"
+                },
+                "value": 99.0000
+            },
+            "operationTime": {
+                "milliseconds": 1742760679000
+            },
+            "posId": "TCS",
+            "merchantKey": "Остальное",
+            "spendingCategory": {
+                "name": "Услуги банка",
+                "icon": "percents-c",
+                "id": "76",
+                "baseColor": "21B0B9"
+            },
+            "offers": [],
+            "isHce": false,
+            "category": {
+                "id": "45",
+                "name": "Другое"
+            },
+            "additionalInfo": [],
+            "virtualPaymentType": 0,
+            "account": "5394140593",
+            "merchant": {
+                "name": "Остальное",
+                "region": {
+                    "country": "RUS",
+                    "city": "MOSCOW"
+                }
+            },
+            "loyaltyPayment": [],
+            "trancheCreationAllowed": false,
+            "cardPresent": false,
+            "accountAmount": {
+                "currency": {
+                    "code": 643,
+                    "name": "RUB",
+                    "strCode": "643"
+                },
+                "value": 99.0000
+            },
+            "isExternalCard": false
+        },
+        {
+            "loyaltyBonusSummary": {
+                "amount": 0.0
+            },
+            "isOffline": false,
+            "icon": "https://brands-prod.cdn-tinkoff.ru/general_logo/tinkoff-new.png",
+            "isInner": false,
+            "type": "Credit",
+            "isAuto": false,
+            "subgroup": {
+                "id": "C4",
+                "name": "Пополнения"
+            },
+            "isDispute": false,
+            "analyticsStatus": "NotSpecified",
+            "typeSerno": 500,
+            "hasStatement": true,
+            "isSuspicious": false,
+            "authorizationId": "290311424135",
+            "id": "107042818283",
+            "status": "OK",
+            "operationTransferred": false,
+            "idSourceType": "Prime",
+            "loyaltyBonus": [],
+            "cashbackAmount": {
+                "currency": {
+                    "code": 643,
+                    "name": "RUB",
+                    "strCode": "643"
+                },
+                "value": 0.0000
+            },
+            "description": "Елена М.",
+            "debitingTime": {
+                "milliseconds": 1741294800000
+            },
+            "isTemplatable": false,
+            "mcc": 0,
+            "ucid": "1102761209",
+            "group": "INCOME",
+            "mccString": "0000",
+            "locations": [],
+            "cashback": 0.0,
+            "senderDetails": "Елена М.",
+            "brand": {
+                "name": "Входящий перевод",
+                "baseTextColor": "333333",
+                "fileLink": "https://brands-prod.cdn-tinkoff.ru/general_logo/tinkoff-new.png",
+                "link": "",
+                "baseColor": "ffdd2d",
+                "logoFile": "tinkoff-new.png",
+                "logo": "https://brands-prod.cdn-tinkoff.ru/general_logo/tinkoff-new.png",
+                "id": "11256",
+                "roundedLogo": false
+            },
+            "operationId": {
+                "value": "290311424135",
+                "source": "PrimeAuth"
+            },
+            "amount": {
+                "currency": {
+                    "code": 643,
+                    "name": "RUB",
+                    "strCode": "643"
+                },
+                "value": 4000.0000
+            },
+            "operationTime": {
+                "milliseconds": 1741323449000
+            },
+            "posId": "979",
+            "subcategory": "Елена М.",
+            "merchantKey": "Входящий перевод",
+            "spendingCategory": {
+                "name": "Переводы",
+                "icon": "transfers-c1",
+                "id": "24",
+                "baseColor": "4FC5DF"
+            },
+            "offers": [],
+            "isHce": false,
+            "category": {
+                "id": "45",
+                "name": "Другое"
+            },
+            "additionalInfo": [],
+            "virtualPaymentType": 0,
+            "account": "5394140593",
+            "merchant": {
+                "name": "Входящий перевод"
+            },
+            "card": "100675032",
+            "loyaltyPayment": [],
+            "trancheCreationAllowed": false,
+            "senderAgreement": "5086798124",
+            "cardPresent": false,
+            "accountAmount": {
+                "currency": {
+                    "code": 643,
+                    "name": "RUB",
+                    "strCode": "643"
+                },
+                "value": 4000.0000
+            },
+            "isExternalCard": false,
+            "cardNumber": "553691******1184"
+        },
+        {
+            "loyaltyBonusSummary": {
+                "amount": 0.0
+            },
+            "isOffline": false,
+            "icon": "https://brands-prod.cdn-tinkoff.ru/general_logo/sber.png",
+            "isInner": false,
+            "type": "Debit",
+            "isAuto": false,
+            "subgroup": {
+                "id": "F1",
+                "name": "Переводы"
+            },
+            "isDispute": true,
+            "analyticsStatus": "NotSpecified",
+            "typeSerno": 727,
+            "hasStatement": false,
+            "isSuspicious": false,
+            "authorizationId": "290301414849",
+            "payment": {
+                "paymentId": "22207154660",
+                "providerGroupId": "Переводы",
+                "paymentType": "Transfer",
+                "feeAmount": {
+                    "currency": {
+                        "code": 643,
+                        "name": "RUB",
+                        "strCode": "643"
+                    },
+                    "value": 0.0000
+                },
+                "providerId": "p2p-anybank",
+                "hasPaymentOrder": false,
+                "comment": "",
+                "repeatable": true,
+                "cardNumber": "553691******1184",
+                "sourceIsQr": false,
+                "bankAccountId": "5394140593",
+                "isQrPayment": false,
+                "fieldsValues": {
+                    "pointerType": "Телефон",
+                    "workflowType": "SBPTransfer",
+                    "pointerLinkId": "30327370408",
+                    "bankMemberId": "100000000111",
+                    "receiverBankName": "Сбербанк",
+                    "maskedFIO": "Андрей К.",
+                    "pointer": "+79859557243"
+                }
+            },
+            "id": "106727024575",
+            "operationPaymentType": "NORMAL",
+            "status": "OK",
+            "operationTransferred": false,
+            "idSourceType": "Prime",
+            "loyaltyBonus": [],
+            "cashbackAmount": {
+                "currency": {
+                    "code": 643,
+                    "name": "RUB",
+                    "strCode": "643"
+                },
+                "value": 0.0000
+            },
+            "description": "Андрей К.",
+            "debitingTime": {
+                "milliseconds": 1741035600000
+            },
+            "isTemplatable": true,
+            "mcc": 1,
+            "ucid": "1102761209",
+            "group": "TRANSFER",
+            "mccString": "0001",
+            "locations": [],
+            "cashback": 0.0,
+            "brand": {
+                "name": "Сбербанк",
+                "baseTextColor": "ffffff",
+                "fileLink": "https://brands-prod.cdn-tinkoff.ru/general_logo/sber.png",
+                "link": "www.sberbank.ru",
+                "baseColor": "21A038",
+                "logoFile": "sber.png",
+                "logo": "https://brands-prod.cdn-tinkoff.ru/general_logo/sber.png",
+                "id": "11242",
+                "roundedLogo": false
+            },
+            "operationId": {
+                "value": "290301414849",
+                "source": "PrimeAuth"
+            },
+            "amount": {
+                "currency": {
+                    "code": 643,
+                    "name": "RUB",
+                    "strCode": "643"
+                },
+                "value": 100000.0000
+            },
+            "operationTime": {
+                "milliseconds": 1741069057000
+            },
+            "posId": "627",
+            "subcategory": "Андрей К.",
+            "merchantKey": "zeH49A6xX5",
+            "spendingCategory": {
+                "name": "Переводы",
+                "icon": "transfers-c1",
+                "id": "24",
+                "baseColor": "4FC5DF"
+            },
+            "offers": [],
+            "isHce": false,
+            "category": {
+                "id": "45",
+                "name": "Другое"
+            },
+            "isCollection": false,
+            "additionalInfo": [],
+            "virtualPaymentType": 0,
+            "account": "5394140593",
+            "merchant": {
+                "name": "Сбербанк"
+            },
+            "loyaltyPayment": [],
+            "trancheCreationAllowed": false,
+            "cardPresent": false,
+            "accountAmount": {
+                "currency": {
+                    "code": 643,
+                    "name": "RUB",
+                    "strCode": "643"
+                },
+                "value": 100000.0000
+            },
+            "isExternalCard": false,
+            "cardNumber": "553691******1184"
+        },
+        {
+            "loyaltyBonusSummary": {
+                "amount": 0.0
+            },
+            "isOffline": false,
+            "icon": "https://brands-prod.cdn-tinkoff.ru/general_logo/education-c1.png",
+            "isInner": false,
+            "type": "Debit",
+            "isAuto": false,
+            "subgroup": {
+                "id": "A1",
+                "name": ""
+            },
+            "isDispute": true,
+            "analyticsStatus": "NotSpecified",
+            "typeSerno": 532,
+            "hasStatement": false,
+            "isSuspicious": false,
+            "authorizationId": "290299236270",
+            "payment": {
+                "paymentId": "22189201994",
+                "providerGroupId": "Покупка по QR",
+                "paymentType": "Payment",
+                "feeAmount": {
+                    "currency": {
+                        "code": 643,
+                        "name": "RUB",
+                        "strCode": "643"
+                    },
+                    "value": 0.0000
+                },
+                "providerId": "qr-pay",
+                "hasPaymentOrder": false,
+                "comment": "",
+                "repeatable": false,
+                "cardNumber": "553691******1184",
+                "sourceIsQr": false,
+                "bankAccountId": "5394140593",
+                "isQrPayment": true,
+                "fieldsValues": {
+                    "description": "Образовательные услуги (ИНД) по иностранному языку, ФИО: Кривошеева Анастасия Андреевна, Телефон: +7 985 955 72 43",
+                    "qrId": "2381004313",
+                    "merchantId": "200000000014496",
+                    "merchantDisplayName": "yescenter",
+                    "mcc": "8249",
+                    "merchantName": "yescenter",
+                    "transactionId": "5960319717",
+                    "extLegalId": "LB0000083864"
+                }
+            },
+            "id": "106666981074",
+            "operationPaymentType": "NORMAL",
+            "status": "OK",
+            "operationTransferred": false,
+            "idSourceType": "Prime",
+            "loyaltyBonus": [],
+            "cashbackAmount": {
+                "currency": {
+                    "code": 643,
+                    "name": "RUB",
+                    "strCode": "643"
+                },
+                "value": 0.0000
+            },
+            "description": "yescenter",
+            "debitingTime": {
+                "milliseconds": 1740949200000
+            },
+            "isTemplatable": false,
+            "mcc": 8249,
+            "ucid": "1102761209",
+            "group": "PAY",
+            "mccString": "8249",
+            "locations": [],
+            "cashback": 0.0,
+            "operationId": {
+                "value": "290299236270",
+                "source": "PrimeAuth"
+            },
+            "amount": {
+                "currency": {
+                    "code": 643,
+                    "name": "RUB",
+                    "strCode": "643"
+                },
+                "value": 32000.0000
+            },
+            "operationTime": {
+                "milliseconds": 1741001788000
+            },
+            "posId": "629",
+            "subcategory": "yescenter",
+            "spendingCategory": {
+                "name": "Образование",
+                "icon": "education-c1",
+                "id": "21",
+                "baseColor": "FE9797"
+            },
+            "offers": [],
+            "isHce": false,
+            "category": {
+                "id": "45",
+                "name": "Другое"
+            },
+            "isCollection": false,
+            "additionalInfo": [],
+            "virtualPaymentType": 0,
+            "account": "5394140593",
+            "loyaltyPayment": [],
+            "trancheCreationAllowed": false,
+            "cardPresent": false,
+            "accountAmount": {
+                "currency": {
+                    "code": 643,
+                    "name": "RUB",
+                    "strCode": "643"
+                },
+                "value": 32000.0000
+            },
+            "isExternalCard": false
+        },
+        {
+            "loyaltyBonusSummary": {
+                "amount": 0.0
+            },
+            "isOffline": false,
+            "icon": "https://brands-prod.cdn-tinkoff.ru/general_logo/transfers-c1.png",
+            "isInner": false,
+            "type": "Credit",
+            "isAuto": false,
+            "subgroup": {
+                "id": "C4",
+                "name": "Пополнения"
+            },
+            "isDispute": false,
+            "analyticsStatus": "NotSpecified",
+            "typeSerno": 576,
+            "hasStatement": true,
+            "isSuspicious": false,
+            "authorizationId": "290286751674",
+            "id": "106266469996",
+            "status": "OK",
+            "operationTransferred": false,
+            "idSourceType": "Prime",
+            "loyaltyBonus": [],
+            "cashbackAmount": {
+                "currency": {
+                    "code": 643,
+                    "name": "RUB",
+                    "strCode": "643"
+                },
+                "value": 0.0000
+            },
+            "description": "Выполнение работ по разработке программы для ЭВМ (Python-разработка) НДС не облагается согласно реестру №121 от 27.02.2025",
+            "debitingTime": {
+                "milliseconds": 1740603600000
+            },
+            "isTemplatable": false,
+            "mcc": 0,
+            "ucid": "1102761209",
+            "group": "INCOME",
+            "mccString": "0000",
+            "locations": [],
+            "cashback": 0.0,
+            "operationId": {
+                "value": "290286751674",
+                "source": "PrimeAuth"
+            },
+            "amount": {
+                "currency": {
+                    "code": 643,
+                    "name": "RUB",
+                    "strCode": "643"
+                },
+                "value": 139200.0000
+            },
+            "operationTime": {
+                "milliseconds": 1740666512000
+            },
+            "posId": "SME",
+            "subcategory": "Выполнение работ по разработке программы для ЭВМ (Python-разработка) НДС не облагается согласно реестру №121 от 27.02.2025",
+            "spendingCategory": {
+                "name": "Переводы",
+                "icon": "transfers-c1",
+                "id": "24",
+                "baseColor": "4FC5DF"
+            },
+            "offers": [],
+            "isHce": false,
+            "category": {
+                "id": "45",
+                "name": "Другое"
+            },
+            "additionalInfo": [],
+            "virtualPaymentType": 0,
+            "account": "5394140593",
+            "card": "100675032",
+            "loyaltyPayment": [],
+            "trancheCreationAllowed": false,
+            "cardPresent": false,
+            "accountAmount": {
+                "currency": {
+                    "code": 643,
+                    "name": "RUB",
+                    "strCode": "643"
+                },
+                "value": 139200.0000
+            },
+            "isExternalCard": false,
+            "cardNumber": "553691******1184"
+        },
+        {
+            "loyaltyBonusSummary": {
+                "amount": 0.0
+            },
+            "isOffline": false,
+            "icon": "https://brands-prod.cdn-tinkoff.ru/general_logo/percents-c.png",
+            "isInner": false,
+            "type": "Debit",
+            "isAuto": false,
+            "subgroup": {
+                "id": "D2",
+                "name": "Услуги банка"
+            },
+            "isDispute": false,
+            "analyticsStatus": "NotSpecified",
+            "typeSerno": 232,
+            "hasStatement": true,
+            "isSuspicious": false,
+            "id": "105881659039",
+            "status": "OK",
+            "operationTransferred": false,
+            "idSourceType": "Prime",
+            "loyaltyBonus": [],
+            "cashbackAmount": {
+                "currency": {
+                    "code": 643,
+                    "name": "RUB",
+                    "strCode": "643"
+                },
+                "value": 0.0000
+            },
+            "description": "Плата за обслуживание",
+            "debitingTime": {
+                "milliseconds": 1740258000000
+            },
+            "isTemplatable": false,
+            "mcc": 9999,
+            "group": "CHARGE",
+            "mccString": "9999",
+            "locations": [],
+            "cashback": 0.0,
+            "operationId": {
+                "value": "105881659039",
+                "source": "PrimeTrxn"
+            },
+            "amount": {
+                "currency": {
+                    "code": 643,
+                    "name": "RUB",
+                    "strCode": "643"
+                },
+                "value": 99.0000
+            },
+            "operationTime": {
+                "milliseconds": 1740342056000
+            },
+            "posId": "TCS",
+            "merchantKey": "Остальное",
+            "spendingCategory": {
+                "name": "Услуги банка",
+                "icon": "percents-c",
+                "id": "76",
+                "baseColor": "21B0B9"
+            },
+            "offers": [],
+            "isHce": false,
+            "category": {
+                "id": "45",
+                "name": "Другое"
+            },
+            "additionalInfo": [],
+            "virtualPaymentType": 0,
+            "account": "5394140593",
+            "merchant": {
+                "name": "Остальное",
+                "region": {
+                    "country": "RUS",
+                    "city": "MOSCOW"
+                }
+            },
+            "loyaltyPayment": [],
+            "trancheCreationAllowed": false,
+            "cardPresent": false,
+            "accountAmount": {
+                "currency": {
+                    "code": 643,
+                    "name": "RUB",
+                    "strCode": "643"
+                },
+                "value": 99.0000
+            },
+            "isExternalCard": false
+        }
+    ],
+    "trackingId": "JHRDH50AT",
+    "details": {
+        "hasNext": false
+    }
+}

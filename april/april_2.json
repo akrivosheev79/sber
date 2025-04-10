@@ -1,0 +1,140 @@
+{
+    "success": true,
+    "body": {
+        "operations": [
+            {
+                "uohId": "9f7572c8-10df-4870-a28c-55a0782c7433",
+                "ufsId": "0001_1000000001242529715",
+                "date": "01.04.2025T11:23:58",
+                "creationChannel": 3,
+                "form": "UfsOutTransfer",
+                "state": {
+                    "name": "EXECUTED",
+                    "category": "executed"
+                },
+                "description": "Клиенту Сбера",
+                "fromResource": {
+                    "id": "ct-account:3100070989701600",
+                    "displayedValue": "Платёжный счёт •• 1132"
+                },
+                "toResource": {
+                    "displayedValue": "•• 0154"
+                },
+                "correspondent": "Анастасия Евгеньевна Ф.",
+                "operationAmount": {
+                    "amount": -2000.00,
+                    "currencyCode": "RUB"
+                },
+                "nationalAmount": {
+                    "amount": -2000.00,
+                    "currencyCode": "RUB"
+                },
+                "commission": {
+                    "amount": 0.00,
+                    "currencyCode": "RUR"
+                },
+                "attributes": {
+                    "copyable": true,
+                    "nfc": false,
+                    "cashReceipt": false,
+                    "compositePayment": false
+                },
+                "type": "ufsPayment",
+                "billingAmount": {
+                    "id": "3100070989701600",
+                    "name": "Платёжный счёт",
+                    "amount": 1696.98,
+                    "currencyCode": "RUB"
+                },
+                "authorizationDocId": "fGzny4lIkh4AAAGV8HNDfsTe6Hncht3V",
+                "externalId": "0001_1000000001242529715",
+                "isFinancial": true
+            },
+            {
+                "uohId": "9d31b174-19e8-4959-983e-8ad80196dbeb",
+                "date": "01.04.2025T10:49:33",
+                "creationChannel": 8,
+                "form": "ExtCardOtherOut",
+                "state": {
+                    "name": "FINANCIAL",
+                    "category": "executed"
+                },
+                "description": "Прочие списания",
+                "fromResource": {
+                    "id": "ct-account:3100070989701600",
+                    "displayedValue": "Платёжный счёт •• 1132"
+                },
+                "correspondent": "Помощь рядом",
+                "operationAmount": {
+                    "amount": -4.00,
+                    "currencyCode": "RUB"
+                },
+                "nationalAmount": {
+                    "amount": -4.00,
+                    "currencyCode": "RUB"
+                },
+                "attributes": {
+                    "copyable": false,
+                    "nfc": false,
+                    "cashReceipt": false,
+                    "compositePayment": false
+                },
+                "imageUrl": "https://cms-res.online.sberbank.ru/MERCHANT/2814e8da-0aa1-428b-838b-eb0e1fda4257.png",
+                "classificationCode": 8398,
+                "type": "payment",
+                "billingAmount": {
+                    "id": "3100070989701600",
+                    "name": "Платёжный счёт",
+                    "amount": 3696.98,
+                    "currencyCode": "RUB"
+                },
+                "authorizationDocId": "fGzny4lIkh4AAAGV8FOy4FKt7BfR8YmR",
+                "externalId": "fGzny4lIkh4AAAGV8MdxWHFLruxaJtrI",
+                "isFinancial": true,
+                "isHidden": false
+            },
+            {
+                "uohId": "681c2219-906c-47d4-ae67-407baf57df2c",
+                "date": "01.04.2025T10:49:23",
+                "creationChannel": 8,
+                "form": "ExtCardPayment",
+                "state": {
+                    "name": "FINANCIAL",
+                    "category": "executed"
+                },
+                "description": "Оплата товаров и услуг",
+                "fromResource": {
+                    "id": "ct-account:3100070989701600",
+                    "displayedValue": "Платёжный счёт •• 1132"
+                },
+                "correspondent": "YANDEX.SCOOTERS MOSCOW RUS",
+                "operationAmount": {
+                    "amount": -56.00,
+                    "currencyCode": "RUB"
+                },
+                "nationalAmount": {
+                    "amount": -56.00,
+                    "currencyCode": "RUB"
+                },
+                "attributes": {
+                    "copyable": false,
+                    "nfc": false,
+                    "cashReceipt": false,
+                    "compositePayment": false
+                },
+                "classificationCode": 7999,
+                "type": "payment",
+                "billingAmount": {
+                    "id": "3100070989701600",
+                    "name": "Платёжный счёт",
+                    "amount": 3700.98,
+                    "currencyCode": "RUB"
+                },
+                "authorizationDocId": "fGzny4lIkh4AAAGV8FOPuJBVBOVxueXK",
+                "externalId": "fGzny4lIkh4AAAGV8N8dhzIK3JFW/Jc8",
+                "isFinancial": true,
+                "isHidden": false
+            }
+        ]
+    }
+}
